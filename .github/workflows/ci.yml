@@ -71,4 +71,27 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 14
-      - uses: actions-rs/too
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: 1.58.1
+          override: true
+      - run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+      - run: rustup target add wasm32-unknown-unknown
+      - run: cd docx-wasm && yarn install && yarn wasm-pack:node && yarn wasm-pack:dev && tsc -p tsconfig.node.json && yarn test
+
+  lint:
+    name: Clippy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: 1.56.1
+          override: true
+      - run: rustup component add clippy
+      - uses: actions-rs/cargo@v1
+        with:
+          command: clippy
+          args: -- -D warnings
