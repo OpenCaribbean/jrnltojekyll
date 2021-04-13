@@ -1,3 +1,6 @@
 [workspace]
 
-mem
+members = [
+    "docx-core",
+    "docx-wasm",
+]
