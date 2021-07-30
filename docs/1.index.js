@@ -19,4 +19,13 @@
       /*!***************************!*\
   !*** ./pkg/index_bg.wasm ***!
   \***************************/
-      /*! exports provided: memory, __rustc_debug_gdb_scripts_section__, __wbg_run_free, createRun, run_add_text, run_add_delete_text, run_add_tab, run_add_break, run_size, run_color, run_highlight, run_bold, run_italic, run_underline, run_vanish, __wbg_comment_free, createComment, comment_author, comment_date, comment_paragraph, comment_id, __wbg_tablecell_free, createTableCell, tablecell_add_paragraph, tablec
+      /*! exports provided: memory, __rustc_debug_gdb_scripts_section__, __wbg_run_free, createRun, run_add_text, run_add_delete_text, run_add_tab, run_add_break, run_size, run_color, run_highlight, run_bold, run_italic, run_underline, run_vanish, __wbg_comment_free, createComment, comment_author, comment_date, comment_paragraph, comment_id, __wbg_tablecell_free, createTableCell, tablecell_add_paragraph, tablecell_vertical_merge, tablecell_grid_span, __wbg_tablerow_free, createTableRow, tablerow_add_cell, __wbg_docx_free, createDocx, docx_add_paragraph, docx_add_table, docx_add_numbering, docx_build, __wbg_level_free, createLevel, level_indent, __wbg_insert_free, createInsert, __wbg_table_free, createTable, table_add_row, table_set_grid, table_indent, table_align, __wbg_numbering_free, createNumbering, numbering_add_level, __wbg_delete_free, createDelete, __wbg_paragraph_free, createParagraph, paragraph_add_run, paragraph_add_insert, paragraph_add_delete, paragraph_add_bookmark_start, paragraph_add_bookmark_end, paragraph_add_comment_start, paragraph_add_comment_end, paragraph_align, paragraph_style, paragraph_indent, paragraph_numbering, __wbindgen_malloc, __wbindgen_realloc, __wbindgen_free */
+      /***/ function(module, exports, __webpack_require__) {
+        eval(
+          '"use strict";\n// Instantiate WebAssembly module\nvar wasmExports = __webpack_require__.w[module.i];\n__webpack_require__.r(exports);\n// export exports from WebAssembly module\nfor(var name in wasmExports) if(name != "__webpack_init__") exports[name] = wasmExports[name];\n// exec imports from WebAssembly module (for esm order)\n/* harmony import */ var m0 = __webpack_require__(/*! ./index.js */ "./pkg/index.js");\n\n\n// exec wasm module\nwasmExports["__webpack_init__"]()\n\n//# sourceURL=webpack:///./pkg/index_bg.wasm?'
+        );
+
+        /***/
+      }
+  }
+]);
