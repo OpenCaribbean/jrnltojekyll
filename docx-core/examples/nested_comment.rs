@@ -26,4 +26,13 @@ pub fn main() -> Result<(), DocxError> {
                     Comment::new(3)
                         .author("bokuweb")
                         .date("2019-01-02T00:00:00Z")
-   
+                        .parent_comment_id(1)
+                        .add_paragraph(Paragraph::new().add_run(Run::new().add_text("!!!!!")))
+                        .add_paragraph(Paragraph::new().add_run(Run::new().add_text("!!!!!"))),
+                )
+                .add_comment_end(3),
+        )
+        .build()
+        .pack(file)?;
+    Ok(())
+}
