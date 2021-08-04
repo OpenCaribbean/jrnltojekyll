@@ -42,4 +42,5 @@ mod tests {
             str::from_utf8(&b).unwrap(),
             r#"<w:bookmarkStart w:id="0" w:name="mockname" />"#
         );
-   
+    }
+}
