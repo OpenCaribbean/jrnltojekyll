@@ -22,4 +22,44 @@ impl CommentRangeStart {
         self.comment = comment;
     }
 
-    pub(crate) fn get_com
+    pub(crate) fn get_comment(&self) -> Comment {
+        self.comment.clone()
+    }
+
+    pub(crate) fn get_id(&self) -> usize {
+        self.id
+    }
+}
+
+impl BuildXML for CommentRangeStart {
+    fn build(&self) -> Vec<u8> {
+        let b = XMLBuilder::new();
+        b.comment_range_start(&format!("{}", self.id)).build()
+    }
+}
+
+impl BuildXML for Box<CommentRangeStart> {
+    fn build(&self) -> Vec<u8> {
+        let b = XMLBuilder::new();
+        b.comment_range_start(&format!("{}", self.id)).build()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_comment_range_start() {
+        let c = CommentRangeStart::new(Comment::new(1));
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:commentRangeStart w:id="1" />"#
+        );
+    }
+}
