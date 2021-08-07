@@ -41,4 +41,21 @@ mod tests {
     use pretty_assertions::assert_eq;
     use std::str;
 
-   
+    #[test]
+    fn test_build() {
+        let b = DeleteText::new("Hello").build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:delText xml:space="preserve">Hello</w:delText>"#
+        );
+    }
+
+    #[test]
+    fn test_escape() {
+        let b = DeleteText::new("<div />").build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:delText xml:space="preserve">&lt;div /&gt;</w:delText>"#
+        );
+    }
+}
