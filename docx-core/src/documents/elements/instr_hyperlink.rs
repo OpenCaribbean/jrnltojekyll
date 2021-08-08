@@ -49,4 +49,20 @@ impl std::str::FromStr for InstrHyperlink {
                         let _ = s.next();
                     }
                     "\\t" => {
-         
+                        // TODO: Support later
+                        let _ = s.next();
+                    }
+                    _ => {
+                        target = i.replace("&quot;", "").replace("\"", "").to_string();
+                    }
+                }
+            } else {
+                // FIXME: For now, return error if target is not found
+                if target.is_empty() {
+                    return Err(());
+                }
+                return Ok(Self { target, anchor });
+            }
+        }
+    }
+}
