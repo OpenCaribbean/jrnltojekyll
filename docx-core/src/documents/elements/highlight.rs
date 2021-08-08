@@ -49,4 +49,8 @@ mod tests {
 
     #[test]
     fn test_highlight_json() {
-        let c = Hi
+        let c = Highlight::new("FFFFFF");
+
+        assert_eq!(serde_json::to_string(&c).unwrap(), r#""FFFFFF""#);
+    }
+}
