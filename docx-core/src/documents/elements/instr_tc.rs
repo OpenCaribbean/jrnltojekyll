@@ -78,4 +78,23 @@ impl std::str::FromStr for InstrTC {
                 match i {
                     "\\f" => {
                         if let Some(r) = s.next() {
- 
+                            let r = r.replace("&quot;", "").replace("\"", "");
+                            tc = tc.item_type_identifier(r);
+                        }
+                    }
+                    "\\l" => {
+                        if let Some(r) = s.next() {
+                            if let Some(l) = parse_level(r) {
+                                tc = tc.level(l);
+                            }
+                        }
+                    }
+                    "\\n" => tc = tc.omits_page_number(),
+                    _ => {}
+                }
+            } else {
+                return Ok(tc);
+            }
+        }
+    }
+}
