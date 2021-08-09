@@ -1,15 +1,16 @@
+
 use serde::{Deserialize, Serialize, Serializer};
 
 use crate::documents::BuildXML;
 use crate::xml_builder::*;
 
 #[derive(Debug, Clone, Deserialize, PartialEq)]
-pub struct Italic {
+pub struct ItalicCs {
     val: bool,
 }
 
-impl Italic {
-    pub fn new() -> Italic {
+impl ItalicCs {
+    pub fn new() -> ItalicCs {
         Default::default()
     }
 
@@ -19,13 +20,13 @@ impl Italic {
     }
 }
 
-impl Default for Italic {
+impl Default for ItalicCs {
     fn default() -> Self {
         Self { val: true }
     }
 }
 
-impl Serialize for Italic {
+impl Serialize for ItalicCs {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where
         S: Serializer,
@@ -34,9 +35,9 @@ impl Serialize for Italic {
     }
 }
 
-impl BuildXML for Italic {
+impl BuildXML for ItalicCs {
     fn build(&self) -> Vec<u8> {
         let b = XMLBuilder::new();
-        b.i().build()
+        b.i_cs().build()
     }
 }
