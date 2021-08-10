@@ -20,4 +20,8 @@ impl Default for McFallback {
 }
 
 impl BuildXML for McFallback {
-    fn build(&self) -> 
+    fn build(&self) -> Vec<u8> {
+        //  Ignore for now
+        vec![]
+    }
+}
