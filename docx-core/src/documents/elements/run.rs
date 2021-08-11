@@ -222,3 +222,146 @@ impl Run {
         self.run_property = self.run_property.color(color);
         self
     }
+
+    pub fn highlight(mut self, color: impl Into<String>) -> Run {
+        self.run_property = self.run_property.highlight(color);
+        self
+    }
+
+    pub fn bold(mut self) -> Run {
+        self.run_property = self.run_property.bold();
+        self
+    }
+
+    pub fn disable_bold(mut self) -> Run {
+        self.run_property = self.run_property.disable_bold();
+        self
+    }
+
+    pub fn italic(mut self) -> Run {
+        self.run_property = self.run_property.italic();
+        self
+    }
+
+    pub fn text_border(mut self, b: TextBorder) -> Run {
+        self.run_property = self.run_property.text_border(b);
+        self
+    }
+
+    pub fn disable_italic(mut self) -> Run {
+        self.run_property = self.run_property.disable_italic();
+        self
+    }
+
+    pub fn underline(mut self, line_type: impl Into<String>) -> Run {
+        self.run_property = self.run_property.underline(line_type);
+        self
+    }
+
+    pub fn vanish(mut self) -> Run {
+        self.run_property = self.run_property.vanish();
+        self
+    }
+
+    pub fn fonts(mut self, f: RunFonts) -> Run {
+        self.run_property = self.run_property.fonts(f);
+        self
+    }
+
+    pub(crate) fn set_property(mut self, p: RunProperty) -> Run {
+        self.run_property = p;
+        self
+    }
+}
+
+impl BuildXML for Run {
+    fn build(&self) -> Vec<u8> {
+        let b = XMLBuilder::new();
+        let mut b = b.open_run().add_child(&self.run_property);
+        for c in &self.children {
+            match c {
+                RunChild::Text(t) => b = b.add_child(t),
+                RunChild::DeleteText(t) => b = b.add_child(t),
+                RunChild::Tab(t) => b = b.add_child(t),
+                RunChild::Break(t) => b = b.add_child(t),
+                RunChild::Drawing(t) => b = b.add_child(t),
+                RunChild::Shape(_t) => {
+                    todo!("Support shape writer.")
+                }
+                RunChild::CommentStart(c) => b = b.add_child(c),
+                RunChild::CommentEnd(c) => b = b.add_child(c),
+                RunChild::FieldChar(c) => b = b.add_child(c),
+                RunChild::InstrText(c) => b = b.add_child(c),
+                RunChild::DeleteInstrText(c) => b = b.add_child(c),
+                RunChild::InstrTextString(_) => unreachable!(),
+            }
+        }
+        b.close().build()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_build() {
+        let b = Run::new().add_text("Hello").build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:r><w:rPr /><w:t xml:space="preserve">Hello</w:t></w:r>"#
+        );
+    }
+
+    #[test]
+    fn test_underline() {
+        let b = Run::new().add_text("Hello").underline("single").build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:r><w:rPr><w:u w:val="single" /></w:rPr><w:t xml:space="preserve">Hello</w:t></w:r>"#
+        );
+    }
+
+    #[test]
+    fn test_child_json() {
+        let c = RunChild::Text(Text::new("Hello"));
+        assert_eq!(
+            serde_json::to_string(&c).unwrap(),
+            r#"{"type":"text","data":{"preserveSpace":true,"text":"Hello"}}"#
+        );
+    }
+
+    #[test]
+    fn test_run_json() {
+        let run = Run {
+            children: vec![
+                RunChild::Tab(Tab::new()),
+                RunChild::Text(Text::new("Hello")),
+                RunChild::Break(Break::new(BreakType::Page)),
+                RunChild::DeleteText(DeleteText::new("deleted")),
+            ],
+            run_property: RunProperty {
+                sz: Some(Sz::new(30)),
+                sz_cs: Some(SzCs::new(30)),
+                color: Some(Color::new("C9211E")),
+                highlight: Some(Highlight::new("yellow")),
+                underline: Some(Underline::new("single")),
+                bold: Some(Bold::new()),
+                bold_cs: Some(BoldCs::new()),
+                italic: Some(Italic::new()),
+                italic_cs: Some(ItalicCs::new()),
+                vanish: Some(Vanish::new()),
+                character_spacing: Some(CharacterSpacing::new(100)),
+                ..RunProperty::default()
+            },
+        };
+        assert_eq!(
+            serde_json::to_string(&run).unwrap(),
+            r#"{"runProperty":{"sz":30,"szCs":30,"color":"C9211E","highlight":"yellow","underline":"single","bold":true,"boldCs":true,"italic":true,"italicCs":true,"vanish":true,"characterSpacing":100},"children":[{"type":"tab"},{"type":"text","data":{"preserveSpace":true,"text":"Hello"}},{"type":"break","data":{"breakType":"page"}},{"type":"deleteText","data":{"text":"deleted","preserveSpace":true}}]}"#,
+        );
+    }
+}
