@@ -163,4 +163,101 @@ impl BuildXML for RunProperty {
             .add_optional_child(&self.strike)
             .add_optional_child(&self.highlight)
             .add_optional_child(&self.underline)
-            .add_
+            .add_optional_child(&self.vanish)
+            .add_optional_child(&self.spec_vanish)
+            .add_optional_child(&self.fonts)
+            .add_optional_child(&self.text_border)
+            .add_optional_child(&self.ins)
+            .add_optional_child(&self.del)
+            .add_optional_child(&self.vert_align)
+            .add_optional_child(&self.character_spacing)
+            .add_optional_child(&self.style)
+            .close()
+            .build()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_size() {
+        let c = RunProperty::new().size(10).color("FFFFFF");
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:sz w:val="10" /><w:szCs w:val="10" /><w:color w:val="FFFFFF" /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_highlight() {
+        let c = RunProperty::new().highlight("FFFFFF");
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:highlight w:val="FFFFFF" /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_bold() {
+        let c = RunProperty::new().bold();
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:b /><w:bCs /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_strike() {
+        let c = RunProperty::new().strike();
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:strike /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_underline() {
+        let c = RunProperty::new().underline("single");
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:u w:val="single" /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_vanish() {
+        let c = RunProperty::new().vanish();
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:vanish /></w:rPr>"#
+        );
+    }
+
+    #[test]
+    fn test_run_fonts() {
+        let c = RunProperty::new().fonts(RunFonts::new().east_asia("Hiragino"));
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:rFonts w:eastAsia="Hiragino" /></w:rPr>"#
+        );
+    }
+    #[test]
+    fn test_character_spacing() {
+        let c = RunProperty::new().spacing(20);
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:rPr><w:spa
