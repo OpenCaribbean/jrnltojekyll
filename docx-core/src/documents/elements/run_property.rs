@@ -260,4 +260,7 @@ mod tests {
         let b = c.build();
         assert_eq!(
             str::from_utf8(&b).unwrap(),
-            r#"<w:rPr><w:spa
+            r#"<w:rPr><w:spacing w:val="20" /></w:rPr>"#
+        );
+    }
+}
