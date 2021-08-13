@@ -43,4 +43,43 @@ impl BuildXML for StructuredDataTagProperty {
     fn build(&self) -> Vec<u8> {
         let mut b = XMLBuilder::new()
             .open_structured_tag_property()
-            .add_ch
+            .add_child(&self.run_property)
+            .add_optional_child(&self.data_binding);
+
+        if let Some(ref alias) = self.alias {
+            b = b.alias(alias);
+        }
+
+        b.close().build()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_default() {
+        let c = StructuredDataTagProperty::new();
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:sdtPr><w:rPr /></w:sdtPr>"#
+        );
+    }
+
+    #[test]
+    fn test_with_alias() {
+        let c = StructuredDataTagProperty::new().alias("summary");
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<w:sdtPr><w:rPr /><w:alias w:val="summary" />
+</w:sdtPr>"#
+        );
+    }
+}
