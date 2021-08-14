@@ -22,4 +22,19 @@ impl Tab {
     }
 
     pub fn leader(mut self, v: TabLeaderType) -> Self {
-        self.lead
+        self.leader = Some(v);
+        self
+    }
+
+    pub fn pos(mut self, v: usize) -> Self {
+        self.pos = Some(v);
+        self
+    }
+}
+
+impl BuildXML for Tab {
+    fn build(&self) -> Vec<u8> {
+        let b = XMLBuilder::new();
+        b.tab(self.val, self.leader, self.pos).build()
+    }
+}
