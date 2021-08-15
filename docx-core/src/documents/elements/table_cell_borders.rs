@@ -201,4 +201,15 @@ impl BuildXML for TableCellBorders {
     fn build(&self) -> Vec<u8> {
         XMLBuilder::new()
             .open_table_cell_borders()
-        
+            .add_optional_child(&self.top)
+            .add_optional_child(&self.left)
+            .add_optional_child(&self.bottom)
+            .add_optional_child(&self.right)
+            .add_optional_child(&self.inside_h)
+            .add_optional_child(&self.inside_v)
+            .add_optional_child(&self.tl2br)
+            .add_optional_child(&self.tr2bl)
+            .close()
+            .build()
+    }
+}
