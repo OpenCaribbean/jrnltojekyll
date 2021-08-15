@@ -68,4 +68,76 @@ impl TableCellBorder {
 impl BuildXML for TableCellBorder {
     fn build(&self) -> Vec<u8> {
         let base = XMLBuilder::new();
-        let base
+        let base = match self.position {
+            TableCellBorderPosition::Top => {
+                base.border_top(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::Left => {
+                base.border_left(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::Bottom => {
+                base.border_bottom(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::Right => {
+                base.border_right(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::InsideH => {
+                base.border_inside_h(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::InsideV => {
+                base.border_inside_v(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::Tr2bl => {
+                base.border_tr2bl(self.border_type, self.size, self.space, &self.color)
+            }
+            TableCellBorderPosition::Tl2br => {
+                base.border_tl2br(self.border_type, self.size, self.space, &self.color)
+            }
+        };
+        base.build()
+    }
+}
+
+#[derive(Serialize, Debug, Clone, PartialEq)]
+#[serde(rename_all = "camelCase")]
+pub struct TableCellBorders {
+    top: Option<TableCellBorder>,
+    left: Option<TableCellBorder>,
+    bottom: Option<TableCellBorder>,
+    right: Option<TableCellBorder>,
+    inside_h: Option<TableCellBorder>,
+    inside_v: Option<TableCellBorder>,
+    tr2bl: Option<TableCellBorder>,
+    tl2br: Option<TableCellBorder>,
+}
+
+impl Default for TableCellBorders {
+    fn default() -> TableCellBorders {
+        TableCellBorders {
+            top: Some(TableCellBorder::new(TableCellBorderPosition::Top)),
+            left: Some(TableCellBorder::new(TableCellBorderPosition::Left)),
+            bottom: Some(TableCellBorder::new(TableCellBorderPosition::Bottom)),
+            right: Some(TableCellBorder::new(TableCellBorderPosition::Right)),
+            inside_h: Some(TableCellBorder::new(TableCellBorderPosition::InsideH)),
+            inside_v: Some(TableCellBorder::new(TableCellBorderPosition::InsideV)),
+            tr2bl: None,
+            tl2br: None,
+        }
+    }
+}
+
+impl TableCellBorders {
+    pub fn new() -> TableCellBorders {
+        Default::default()
+    }
+
+    pub fn with_empty() -> TableCellBorders {
+        TableCellBorders {
+            top: None,
+            left: None,
+            bottom: None,
+            right: None,
+            inside_h: None,
+            inside_v: None,
+            tr2bl: None,
+  
