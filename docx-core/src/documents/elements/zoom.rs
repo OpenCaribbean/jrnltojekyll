@@ -28,3 +28,21 @@ impl Serialize for Zoom {
         S: Serializer,
     {
         serializer.serialize_u64(self.val as u64)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_zoom() {
+        let c = Zoom::new(20);
+        let b = c.build();
+        assert_eq!(str::from_utf8(&b).unwrap(), r#"<w:zoom w:percent="20" />"#);
+    }
+}
