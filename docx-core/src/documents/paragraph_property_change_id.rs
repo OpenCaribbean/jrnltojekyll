@@ -15,4 +15,8 @@ pub trait ParagraphPropertyChangeId {
 }
 
 #[cfg(test)]
-pub trait ParagraphProp
+pub trait ParagraphPropertyChangeId {
+    fn generate(&self) -> &str {
+        "123"
+    }
+}
