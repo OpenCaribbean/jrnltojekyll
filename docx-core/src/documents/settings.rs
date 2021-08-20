@@ -54,4 +54,94 @@ impl Default for Settings {
             zoom: Zoom::new(100),
             doc_id: None,
             doc_vars: vec![],
-            even_and_odd_head
+            even_and_odd_headers: false,
+            adjust_line_height_in_table: false,
+        }
+    }
+}
+
+impl BuildXML for Settings {
+    fn build(&self) -> Vec<u8> {
+        let b = XMLBuilder::new();
+        let mut b = b
+            .declaration(Some(true))
+            .open_settings()
+            .add_child(&self.default_tab_stop)
+            .add_child(&self.zoom)
+            .open_compat()
+            .space_for_ul()
+            .balance_single_byte_double_byte_width()
+            .do_not_leave_backslash_alone()
+            .ul_trail_space()
+            .do_not_expand_shift_return();
+
+        if self.adjust_line_height_in_table {
+            b = b.adjust_line_height_table();
+        }
+
+        b = b
+            .use_fe_layout()
+            .compat_setting(
+                "compatibilityMode",
+                "http://schemas.microsoft.com/office/word",
+                "15",
+            )
+            .compat_setting(
+                "overrideTableStyleFontSizeAndJustification",
+                "http://schemas.microsoft.com/office/word",
+                "1",
+            )
+            .compat_setting(
+                "enableOpenTypeFeatures",
+                "http://schemas.microsoft.com/office/word",
+                "1",
+            )
+            .compat_setting(
+                "doNotFlipMirrorIndents",
+                "http://schemas.microsoft.com/office/word",
+                "1",
+            )
+            .compat_setting(
+                "differentiateMultirowTableHeaders",
+                "http://schemas.microsoft.com/office/word",
+                "1",
+            )
+            .compat_setting(
+                "useWord2013TrackBottomHyphenation",
+                "http://schemas.microsoft.com/office/word",
+                "0",
+            )
+            .close()
+            .add_optional_child(&self.doc_id);
+
+        if !self.doc_vars.is_empty() {
+            b = b.open_doc_vars();
+            for v in self.doc_vars.iter() {
+                b = b.add_child(v);
+            }
+            b = b.close();
+        }
+
+        if self.even_and_odd_headers {
+            b = b.even_and_odd_headers();
+        }
+        b.close().build()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::str;
+
+    #[test]
+    fn test_settings() {
+        let c = Settings::new();
+        let b = c.build();
+        assert_eq!(
+            str::from_utf8(&b).unwrap(),
+            r#"<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:settings xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.micros
