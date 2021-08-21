@@ -23,4 +23,17 @@ pub fn read_border(attrs: &[OwnedAttribute]) -> Result<BorderAttrs, ReaderError>
         if local_name == "color" {
             color = a.value.to_owned();
         } else if local_name == "sz" {
-            size = Some(u
+            size = Some(u32::from_str(&a.value)?);
+        } else if local_name == "space" {
+            space = Some(u32::from_str(&a.value)?);
+        } else if local_name == "val" {
+            border_type = BorderType::from_str(&a.value)?;
+        }
+    }
+    Ok(BorderAttrs {
+        border_type,
+        color,
+        size,
+        space,
+    })
+}
