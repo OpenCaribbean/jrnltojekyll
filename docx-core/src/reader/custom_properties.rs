@@ -13,4 +13,44 @@ impl FromXML for CustomProps {
         loop {
             let e = r.next();
             match e {
-    
+                Ok(XmlEvent::StartElement {
+                    name, attributes, ..
+                }) => {
+                    if let Ok(XMLElement::Property) = XMLElement::from_str(&name.local_name) {
+                        if let Some(key) = read_name(&attributes) {
+                            loop {
+                                let e = r.next();
+                                match e {
+                                    Ok(XmlEvent::StartElement { name, .. }) => {
+                                        // TODO: Fow now, support only string.
+                                        if let Ok(VtXMLElement::Lpwstr) =
+                                            VtXMLElement::from_str(&name.local_name)
+                                        {
+                                            let e = r.next();
+                                            if let Ok(XmlEvent::Characters(c)) = e {
+                                                props = props.add_custom_property(&key, c)
+                                            }
+                                        }
+                                    }
+                                    Ok(XmlEvent::EndElement { name, .. }) => {
+                                        if let Ok(XMLElement::Property) =
+                                            XMLElement::from_str(&name.local_name)
+                                        {
+                                            break;
+                                        }
+                                    }
+                                    _ => {}
+                                }
+                            }
+                        }
+                    }
+                }
+                Ok(XmlEvent::EndDocument { .. }) => {
+                    return Ok(props);
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
