@@ -27,4 +27,12 @@ impl FromXML for Comments {
                         return Ok(Comments { comments });
                     }
                 }
-                Ok(XmlEvent::EndDoc
+                Ok(XmlEvent::EndDocument { .. }) => {
+                    return Ok(Comments { comments });
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
