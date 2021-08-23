@@ -45,4 +45,35 @@ impl FromXML for Document {
                                     doc = doc.add_comment_start(comment);
                                 }
                             }
-              
+                            continue;
+                        }
+                        XMLElement::CommentRangeEnd => {
+                            if let Some(id) = read(&attributes, "id") {
+                                if let Ok(id) = usize::from_str(&id) {
+                                    doc = doc.add_comment_end(id);
+                                }
+                            }
+                            continue;
+                        }
+                        XMLElement::SectionProperty => {
+                            let e = SectionProperty::read(&mut parser, &attributes)?;
+                            doc = doc.default_section_property(e);
+                            continue;
+                        }
+                        XMLElement::StructuredDataTag => {
+                            if let Ok(tag) = StructuredDataTag::read(&mut parser, &attributes) {
+                                doc = doc.add_structured_data_tag(tag);
+                            }
+                            continue;
+                        }
+                        _ => {}
+                    }
+                }
+                Ok(XmlEvent::EndDocument) => break,
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+        Ok(doc)
+    }
+}
