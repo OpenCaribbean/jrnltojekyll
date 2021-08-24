@@ -94,4 +94,11 @@ impl ElementReader for Hyperlink {
                     let e = XMLElement::from_str(&name.local_name).unwrap();
                     if e == XMLElement::Hyperlink {
                         return Ok(link);
-               
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
