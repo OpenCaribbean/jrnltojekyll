@@ -45,4 +45,20 @@ impl ElementReader for Insert {
                 Ok(XmlEvent::EndElement { name, .. }) => {
                     let e = XMLElement::from_str(&name.local_name).unwrap();
                     if e == XMLElement::Insert {
-       
+                        for attr in attrs {
+                            let local_name = &attr.name.local_name;
+                            if local_name == "author" {
+                                ins = ins.author(&attr.value);
+                            } else if local_name == "date" {
+                                ins = ins.date(&attr.value);
+                            }
+                        }
+                        return Ok(ins);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
