@@ -28,4 +28,44 @@ impl FromXML for Settings {
                                         settings = settings.doc_id(
                                             &a.value.to_owned().replace("{", "").replace("}", ""),
                                         );
-       
+                                    }
+                                }
+                            }
+                        }
+                        XMLElement::DocVar => {
+                            let name = attributes::read_name(&attributes);
+                            let val = attributes::read_val(&attributes);
+                            if let Some(name) = name {
+                                if let Some(val) = val {
+                                    settings = settings.add_doc_var(name, val);
+                                }
+                            }
+                        }
+                        XMLElement::DefaultTabStop => {
+                            let val = attributes::read_val(&attributes);
+                            if let Some(val) = val {
+                                if let Ok(val) = f32::from_str(&val) {
+                                    settings = settings.default_tab_stop(val as usize);
+                                }
+                            }
+                        }
+                        XMLElement::AdjustLineHeightInTable => {
+                            settings = settings.adjust_line_height_in_table();
+                        }
+                        _ => {}
+                    }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if let XMLElement::Settings = e {
+                        break;
+                    }
+                }
+                Ok(XmlEvent::EndDocument { .. }) => break,
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+        Ok(settings)
+    }
+}
