@@ -47,4 +47,7 @@ impl ElementReader for LevelOverride {
                 }
             }
         } else {
-      
+            Err(ReaderError::XMLReadError)
+        }
+    }
+}
