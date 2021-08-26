@@ -26,4 +26,21 @@ impl ElementReader for ParagraphPropertyChange {
                 Ok(XmlEvent::StartElement { name, .. }) => {
                     let e = XMLElement::from_str(&name.local_name)
                         .expect("should convert to XMLElement");
-                    if
+                    if let XMLElement::ParagraphProperty = e {
+                        if let Ok(p) = ParagraphProperty::read(r, attrs) {
+                            pc = pc.property(p);
+                        }
+                    }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if e == XMLElement::ParagraphPropertyChange {
+                        return Ok(pc);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
