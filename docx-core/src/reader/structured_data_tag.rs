@@ -60,4 +60,35 @@ impl ElementReader for StructuredDataTag {
                             }
                             continue;
                         }
-                       
+                        XMLElement::CommentRangeEnd => {
+                            if let Some(id) = read(&attributes, "id") {
+                                if let Ok(id) = usize::from_str(&id) {
+                                    sdt.children.push(StructuredDataTagChild::CommentEnd(
+                                        CommentRangeEnd::new(id),
+                                    ));
+                                }
+                            }
+                            continue;
+                        }
+                        XMLElement::Run => {
+                            if let Ok(run) = Run::read(r, attrs) {
+                                sdt.children
+                                    .push(StructuredDataTagChild::Run(Box::new(run)));
+                            }
+                            continue;
+                        }
+                        _ => {}
+                    }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if e == XMLElement::StructuredDataTag {
+                        return Ok(sdt);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
