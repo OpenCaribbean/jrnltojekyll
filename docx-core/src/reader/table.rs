@@ -27,4 +27,74 @@ impl ElementReader for Table {
                             t = t.add_row(TableRow::read(r, &attributes)?);
                             continue;
                         }
-      
+                        XMLElement::TableWidth => {
+                            let (w, width_type) = read_width(&attributes)?;
+                            t = t.width(w as usize, width_type);
+                            continue;
+                        }
+                        XMLElement::Justification => {
+                            t = t.align(TableAlignmentType::from_str(&attributes[0].value)?);
+                        }
+                        XMLElement::TableIndent => {
+                            let (w, _) = read_width(&attributes)?;
+                            t = t.indent(w as i32);
+                            continue;
+                        }
+                        XMLElement::TableBorders => {
+                            if let Ok(borders) = TableBorders::read(r, &attributes) {
+                                t = t.set_borders(borders);
+                            }
+                        }
+                        XMLElement::TableStyle => {
+                            if let Some(s) = read_val(&attributes) {
+                                t = t.style(s);
+                            }
+                        }
+                        XMLElement::TableCellMargin => {
+                            if let Ok(margins) = TableCellMargins::read(r, &attributes) {
+                                t = t.margins(margins)
+                            }
+                        }
+                        XMLElement::GridCol => {
+                            let (w, _) = read_width(&attributes)?;
+                            grid_col.push(w as usize);
+                        }
+                        _ => {}
+                    }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if e == XMLElement::Table {
+                        t = t.set_grid(grid_col);
+                        return Ok(t);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+
+    #[test]
+    fn test_read_table_with_width_prop() {
+        let c = r#"<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:tbl>
+    <w:tblPr>
+        <w:tblW w:w="9638" w:type="dxa"/>
+    </w:tblPr>
+    <w:tblGrid>
+        <w:gridCol w:w="3212"/>
+        <w:gridCol w:w="3213"/>
+        <w:gridCol w:w="3213"/>
+    </w:tblGrid>
+</w:tbl>
+</w:document>"#;
+        let mut pa
