@@ -97,4 +97,33 @@ mod tests {
     </w:tblGrid>
 </w:tbl>
 </w:document>"#;
-        let mut pa
+        let mut parser = EventReader::new(c.as_bytes());
+        let t = Table::read(&mut parser, &[]).unwrap();
+        assert_eq!(
+            t,
+            Table::without_borders(vec![])
+                .set_grid(vec![3212, 3213, 3213])
+                .width(9638, WidthType::Dxa)
+        );
+    }
+
+    #[test]
+    fn test_read_table_with_layout() {
+        let c = r#"<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:tbl>
+    <w:tblPr>
+        <w:jc w:val="center"/>
+        <w:tblInd w:w="100" w:type="dxa"/>
+    </w:tblPr>
+</w:tbl>
+</w:document>"#;
+        let mut parser = EventReader::new(c.as_bytes());
+        let t = Table::read(&mut parser, &[]).unwrap();
+        assert_eq!(
+            t,
+            Table::without_borders(vec![])
+                .align(TableAlignmentType::Center)
+                .indent(100)
+        );
+    }
+}
