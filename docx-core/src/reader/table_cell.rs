@@ -121,4 +121,40 @@ mod tests {
     </w:p>
 </w:tc>
 </w:document>"#;
-        let mut parser = E
+        let mut parser = EventReader::new(c.as_bytes());
+        let cell = TableCell::read(&mut parser, &[]).unwrap();
+        assert_eq!(
+            cell,
+            TableCell::new()
+                .add_paragraph(Paragraph::new().add_run(Run::new()))
+                .width(6425, WidthType::Dxa)
+                .vertical_merge(VMergeType::Continue),
+        );
+    }
+
+    #[test]
+    fn test_read_valign() {
+        let c = r#"<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:tc>
+    <w:tcPr>
+        <w:tcW w:w="6425" w:type="dxa"/>
+        <w:vAlign w:val="bottom"/>
+    </w:tcPr>
+    <w:p>
+        <w:r>
+            <w:rPr></w:rPr>
+        </w:r>
+    </w:p>
+</w:tc>
+</w:document>"#;
+        let mut parser = EventReader::new(c.as_bytes());
+        let cell = TableCell::read(&mut parser, &[]).unwrap();
+        assert_eq!(
+            cell,
+            TableCell::new()
+                .add_paragraph(Paragraph::new().add_run(Run::new()))
+                .width(6425, WidthType::Dxa)
+                .vertical_align(VAlignType::Bottom),
+        );
+    }
+}
