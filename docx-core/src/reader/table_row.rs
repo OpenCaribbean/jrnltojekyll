@@ -1,0 +1,85 @@
+
+use std::io::Read;
+use std::str::FromStr;
+
+use xml::attribute::OwnedAttribute;
+use xml::reader::{EventReader, XmlEvent};
+
+use crate::HeightRule;
+
+use super::attributes::*;
+use super::*;
+
+impl ElementReader for TableRow {
+    fn read<R: Read>(r: &mut EventReader<R>, _: &[OwnedAttribute]) -> Result<Self, ReaderError> {
+        let mut cells = vec![];
+        let mut grid_after = None;
+        let mut width_after = None;
+        let mut grid_before = None;
+        let mut width_before = None;
+        let mut row_height = None;
+        let mut del = None;
+        let mut ins = None;
+        let mut height_rule = None;
+        loop {
+            let e = r.next();
+            match e {
+                Ok(XmlEvent::StartElement {
+                    attributes, name, ..
+                }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+
+                    ignore::ignore_element(e.clone(), XMLElement::TableRowPropertyChange, r);
+
+                    match e {
+                        XMLElement::TableCell => {
+                            cells.push(TableCell::read(r, &attributes)?);
+                            continue;
+                        }
+                        XMLElement::GridAfter => {
+                            if let Some(v) = read_val(&attributes) {
+                                grid_after = Some(u32::from_str(&v)?);
+                            }
+                        }
+                        XMLElement::WidthAfter => {
+                            if let Ok(v) = read_width(&attributes) {
+                                width_after = Some(v.0 as f32);
+                            }
+                        }
+                        XMLElement::GridBefore => {
+                            if let Some(v) = read_val(&attributes) {
+                                grid_before = Some(u32::from_str(&v)?);
+                            }
+                        }
+                        XMLElement::WidthBefore => {
+                            if let Ok(v) = read_width(&attributes) {
+                                width_before = Some(v.0 as f32);
+                            }
+                        }
+                        XMLElement::TableRowHeight => {
+                            if let Some(v) = read_val(&attributes) {
+                                let h = f32::from_str(&v);
+                                if let Ok(h) = h {
+                                    row_height = Some(h);
+                                }
+                            }
+
+                            if let Some(v) = read(&attributes, "hRule") {
+                                let h = HeightRule::from_str(&v);
+                                if let Ok(h) = h {
+                                    height_rule = Some(h);
+                                }
+                            }
+                        }
+                        XMLElement::Delete => {
+                            if let Ok(d) = Delete::read(r, &attributes) {
+                                del = Some(d);
+                            }
+                        }
+                        XMLElement::Insert => {
+                            if let Ok(i) = Insert::read(r, &attributes) {
+                                ins = Some(i);
+                            }
+                        }
+                        _ => {}
+                    }

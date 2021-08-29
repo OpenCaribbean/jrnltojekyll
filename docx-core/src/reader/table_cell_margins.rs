@@ -32,4 +32,23 @@ impl ElementReader for TableCellMargins {
                                 margins = margins.margin_bottom(width.0 as usize, width.1)
                             }
                         }
-                       
+                        XMLElement::Left => {
+                            if let Ok(width) = read_width(&attributes) {
+                                margins = margins.margin_left(width.0 as usize, width.1)
+                            }
+                        }
+                        _ => {}
+                    }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if e == XMLElement::TableCellMargin {
+                        return Ok(margins);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
