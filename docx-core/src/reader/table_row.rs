@@ -83,3 +83,49 @@ impl ElementReader for TableRow {
                         }
                         _ => {}
                     }
+                }
+                Ok(XmlEvent::EndElement { name, .. }) => {
+                    let e = XMLElement::from_str(&name.local_name).unwrap();
+                    if e == XMLElement::TableRow {
+                        let mut row = TableRow::new(cells);
+                        if let Some(grid_after) = grid_after {
+                            row = row.grid_after(grid_after);
+                        }
+
+                        if let Some(grid_before) = grid_before {
+                            row = row.grid_before(grid_before);
+                        }
+
+                        if let Some(row_height) = row_height {
+                            row = row.row_height(row_height);
+                        }
+
+                        if let Some(width_after) = width_after {
+                            row = row.width_after(width_after);
+                        }
+
+                        if let Some(width_before) = width_before {
+                            row = row.width_before(width_before);
+                        }
+
+                        if let Some(height_rule) = height_rule {
+                            row = row.height_rule(height_rule);
+                        }
+
+                        if let Some(del) = del {
+                            row = row.delete(del);
+                        }
+
+                        if let Some(ins) = ins {
+                            row = row.insert(ins);
+                        }
+
+                        return Ok(row);
+                    }
+                }
+                Err(_) => return Err(ReaderError::XMLReadError),
+                _ => {}
+            }
+        }
+    }
+}
