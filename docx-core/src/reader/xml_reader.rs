@@ -87,4 +87,70 @@ pub fn read_xml(xml: &str) -> Result<Docx, ReaderError> {
     //    let comments_extended = if let Some(comments_extended_path) = comments_extended_path {
     //        let data = read_zip(
     //            &mut archive,
-    //      
+    //            comments_extended_path
+    //                .to_str()
+    //                .expect("should have comments extended."),
+    //        );
+    //        if let Ok(data) = data {
+    //            CommentsExtended::from_xml(&data[..])?
+    //        } else {
+    //            CommentsExtended::default()
+    //        }
+    //    } else {
+    //        CommentsExtended::default()
+    //    };
+    //
+    //    // Read comments
+    //    let comments_path = rels.find_target_path(COMMENTS_TYPE);
+    //    let comments = if let Some(comments_path) = comments_path {
+    //        let data = read_zip(
+    //            &mut archive,
+    //            comments_path.to_str().expect("should have comments."),
+    //        );
+    //        if let Ok(data) = data {
+    //            let mut comments = Comments::from_xml(&data[..])?.into_inner();
+    //            for i in 0..comments.len() {
+    //                let c = &comments[i];
+    //                let extended = comments_extended.children.iter().find(|ex| {
+    //                    for child in &c.children {
+    //                        if let CommentChild::Paragraph(p) = child {
+    //                            if ex.paragraph_id == p.id {
+    //                                return true;
+    //                            }
+    //                        }
+    //                    }
+    //                    false
+    //                });
+    //                if let Some(CommentExtended {
+    //                    parent_paragraph_id: Some(parent_paragraph_id),
+    //                    ..
+    //                }) = extended
+    //                {
+    //                    if let Some(parent_comment) = comments.iter().find(|c| {
+    //                        for child in &c.children {
+    //                            if let CommentChild::Paragraph(p) = child {
+    //                                if &p.id == parent_paragraph_id {
+    //                                    return true;
+    //                                }
+    //                            }
+    //                        }
+    //                        false
+    //                    }) {
+    //                        comments[i].parent_comment_id = Some(parent_comment.id);
+    //                    }
+    //                }
+    //            }
+    //            Comments { comments }
+    //        } else {
+    //            Comments::default()
+    //        }
+    //    } else {
+    //        Comments::default()
+    //    };
+
+    /*
+        let document = {
+            let data = read_zip(&mut archive, &document_path)?;
+            Document::from_xml(&data[..])?
+        };
+      
