@@ -153,4 +153,61 @@ pub fn read_xml(xml: &str) -> Result<Docx, ReaderError> {
             let data = read_zip(&mut archive, &document_path)?;
             Document::from_xml(&data[..])?
         };
-      
+        let mut docx = Docx::new().document(document);
+
+        // store comments to paragraphs.
+        if !comments.inner().is_empty() {
+            docx.store_comments(comments.inner());
+            docx = docx.comments(comments);
+            docx = docx.comments_extended(comments_extended);
+        }
+
+        // Read document relationships
+        // Read styles
+        let style_path = rels.find_target_path(STYLE_RELATIONSHIP_TYPE);
+        if let Some(style_path) = style_path {
+            let data = read_zip(
+                &mut archive,
+                style_path.to_str().expect("should have styles"),
+            )?;
+            let styles = Styles::from_xml(&data[..])?;
+            docx = docx.styles(styles);
+        }
+
+        // Read numberings
+        let num_path = rels.find_target_path(NUMBERING_RELATIONSHIP_TYPE);
+        if let Some(num_path) = num_path {
+            let data = read_zip(
+                &mut archive,
+                num_path.to_str().expect("should have numberings"),
+            )?;
+            let nums = Numberings::from_xml(&data[..])?;
+            docx = docx.numberings(nums);
+        }
+
+        // Read settings
+        let settings_path = rels.find_target_path(SETTINGS_TYPE);
+        if let Some(settings_path) = settings_path {
+            let data = read_zip(
+                &mut archive,
+                settings_path.to_str().expect("should have settings"),
+            )?;
+            let settings = Settings::from_xml(&data[..])?;
+            docx = docx.settings(settings);
+        }
+
+        // Read web settings
+        let web_settings_path = rels.find_target_path(WEB_SETTINGS_TYPE);
+        if let Some(web_settings_path) = web_settings_path {
+            let data = read_zip(
+                &mut archive,
+                web_settings_path
+                    .to_str()
+                    .expect("should have web settings"),
+            )?;
+            let web_settings = WebSettings::from_xml(&data[..])?;
+            docx = docx.web_settings(web_settings);
+        }
+    */
+    // Ok(docx)
+}
