@@ -71,4 +71,73 @@ pub enum ShdType {
     Pct15,
     Pct20,
     Pct25,
-    Pc
+    Pct30,
+    Pct35,
+    Pct37,
+    Pct40,
+    Pct45,
+    Pct50,
+    Pct55,
+    Pct60,
+    Pct62,
+    Pct65,
+    Pct70,
+    Pct75,
+    Pct80,
+    Pct85,
+    Pct87,
+    Pct90,
+    Pct95,
+}
+
+impl fmt::Display for ShdType {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match *self {
+            ShdType::Nil => write!(f, "nil"),
+            ShdType::Clear => write!(f, "clear"),
+            ShdType::Solid => write!(f, "solid"),
+            ShdType::HorzStripe => write!(f, "horzStripe"),
+            ShdType::VertStripe => write!(f, "vertStripe"),
+            ShdType::ReverseDiagStripe => write!(f, "reverseDiagStripe"),
+            ShdType::DiagStripe => write!(f, "diagStripe"),
+            ShdType::HorzCross => write!(f, "horzCross"),
+            ShdType::DiagCross => write!(f, "diagCross"),
+            ShdType::ThinHorzStripe => write!(f, "thinHorzStripe"),
+            ShdType::ThinVertStripe => write!(f, "thinVertStripe"),
+            ShdType::ThinReverseDiagStripe => write!(f, "thinReverseDiagStripe"),
+            ShdType::ThinDiagStripe => write!(f, "thinDiagStripe"),
+            ShdType::ThinHorzCross => write!(f, "thinHorzCross"),
+            ShdType::ThinDiagCross => write!(f, "thinDiagCross"),
+            ShdType::Pct5 => write!(f, "pct5"),
+            ShdType::Pct10 => write!(f, "pct10"),
+            ShdType::Pct12 => write!(f, "pct12"),
+            ShdType::Pct15 => write!(f, "pct15"),
+            ShdType::Pct20 => write!(f, "pct20"),
+            ShdType::Pct25 => write!(f, "pct25"),
+            ShdType::Pct30 => write!(f, "pct30"),
+            ShdType::Pct35 => write!(f, "pct35"),
+            ShdType::Pct37 => write!(f, "pct37"),
+            ShdType::Pct40 => write!(f, "pct40"),
+            ShdType::Pct45 => write!(f, "pct45"),
+            ShdType::Pct50 => write!(f, "pct50"),
+            ShdType::Pct55 => write!(f, "pct55"),
+            ShdType::Pct60 => write!(f, "pct60"),
+            ShdType::Pct62 => write!(f, "pct62"),
+            ShdType::Pct65 => write!(f, "pct65"),
+            ShdType::Pct70 => write!(f, "pct70"),
+            ShdType::Pct75 => write!(f, "pct75"),
+            ShdType::Pct80 => write!(f, "pct80"),
+            ShdType::Pct85 => write!(f, "pct85"),
+            ShdType::Pct87 => write!(f, "pct87"),
+            ShdType::Pct90 => write!(f, "pct90"),
+            ShdType::Pct95 => write!(f, "pct95"),
+        }
+    }
+}
+
+impl FromStr for ShdType {
+    type Err = errors::TypeError;
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        match s {
+            "nil" => Ok(ShdType::Nil),
+            "clear" => Ok(ShdType::C
