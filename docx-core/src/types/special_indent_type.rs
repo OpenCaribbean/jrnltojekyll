@@ -26,4 +26,16 @@ impl Serialize for SpecialIndentType {
         match *self {
             SpecialIndentType::FirstLine(s) => {
                 let mut t = serializer.serialize_struct("FirstLine", 2)?;
-                t.serialize_field("ty
+                t.serialize_field("type", "firstLine")?;
+                t.serialize_field("val", &s)?;
+                t.end()
+            }
+            SpecialIndentType::Hanging(s) => {
+                let mut t = serializer.serialize_struct("Hanging", 2)?;
+                t.serialize_field("type", "hanging")?;
+                t.serialize_field("val", &s)?;
+                t.end()
+            }
+        }
+    }
+}
