@@ -35,4 +35,9 @@ impl FromStr for WidthType {
         match s {
             "DXA" | "dxa" => Ok(WidthType::Dxa),
             "Auto" | "auto" => Ok(WidthType::Auto),
-            "Pct"
+            "Pct" | "pct" => Ok(WidthType::Pct),
+            "Nil" | "nil" => Ok(WidthType::Nil),
+            _ => Ok(WidthType::Unsupported),
+        }
+    }
+}
