@@ -2,10 +2,10 @@ use super::XMLBuilder;
 use super::XmlEvent;
 
 impl XMLBuilder {
-    pub(crate) fn open_footer(mut self) -> Self {
+    pub(crate) fn open_header(mut self) -> Self {
         self.writer
             .write(
-                XmlEvent::start_element("w:ftr")
+                XmlEvent::start_element("w:hdr")
                     .attr(
                         "xmlns:r",
                         "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
@@ -30,20 +30,4 @@ impl XMLBuilder {
                         "http://schemas.microsoft.com/office/word/2010/wordprocessingGroup",
                     )
                     .attr(
-                        "xmlns:mc",
-                        "http://schemas.openxmlformats.org/markup-compatibility/2006",
-                    )
-                    .attr(
-                        "xmlns:wp14",
-                        "http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing",
-                    )
-                    .attr(
-                        "xmlns:w14",
-                        "http://schemas.microsoft.com/office/word/2010/wordml",
-                    )
-                    .attr("mc:Ignorable", "w14 wp14"),
-            )
-            .expect("should write to buf");
-        self
-    }
-}
+                        "xmln
