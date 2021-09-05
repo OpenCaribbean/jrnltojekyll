@@ -56,4 +56,62 @@ impl XMLBuilder {
                     )
                     .attr(
                         "xmlns:am3d",
-                        "http://schemas.microsoft.com/office/dr
+                        "http://schemas.microsoft.com/office/drawing/2017/model3d",
+                    )
+                    .attr("xmlns:o", "urn:schemas-microsoft-com:office:office")
+                    .attr(
+                        "xmlns:r",
+                        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+                    )
+                    .attr(
+                        "xmlns:m",
+                        "http://schemas.openxmlformats.org/officeDocument/2006/math",
+                    )
+                    .attr("xmlns:v", "urn:schemas-microsoft-com:vml")
+                    .attr(
+                        "xmlns:wp14",
+                        "http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing",
+                    )
+                    .attr(
+                        "xmlns:wp",
+                        "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing",
+                    )
+                    .attr("xmlns:w10", "urn:schemas-microsoft-com:office:word")
+                    .attr(
+                        "xmlns:w",
+                        "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
+                    )
+                    .attr(
+                        "xmlns:w14",
+                        "http://schemas.microsoft.com/office/word/2010/wordml",
+                    )
+                    .attr(
+                        "xmlns:w15",
+                        "http://schemas.microsoft.com/office/word/2012/wordml",
+                    )
+                    .attr(
+                        "xmlns:w16cex",
+                        "http://schemas.microsoft.com/office/word/2018/wordml/cex",
+                    )
+                    .attr(
+                        "xmlns:w16cid",
+                        "http://schemas.microsoft.com/office/word/2016/wordml/cid",
+                    )
+                    .attr(
+                        "xmlns:w16",
+                        "http://schemas.microsoft.com/office/word/2018/wordml",
+                    )
+                    .attr(
+                        "xmlns:w16se",
+                        "http://schemas.microsoft.com/office/word/2015/wordml/symex",
+                    )
+                    .attr(
+                        "xmlns:wpg",
+                        "http://schemas.microsoft.com/office/word/2010/wordprocessingGroup",
+                    )
+                    .attr(
+                        "xmlns:wpi",
+                        "http://schemas.microsoft.com/office/word/2010/wordprocessingInk",
+                    )
+                    .attr(
+                       
