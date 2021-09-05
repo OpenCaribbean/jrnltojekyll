@@ -114,4 +114,12 @@ impl XMLBuilder {
                         "http://schemas.microsoft.com/office/word/2010/wordprocessingInk",
                     )
                     .attr(
-                       
+                        "xmlns:wne",
+                        "http://schemas.microsoft.com/office/word/2006/wordml",
+                    )
+                    .attr("xmlns:wps", "http://schemas.microsoft.com/office/word/2010"),
+            )
+            .expect("should write to buf");
+        self
+    }
+}
