@@ -30,4 +30,20 @@ impl XMLBuilder {
                         "http://schemas.microsoft.com/office/word/2010/wordprocessingGroup",
                     )
                     .attr(
-                        "xmln
+                        "xmlns:mc",
+                        "http://schemas.openxmlformats.org/markup-compatibility/2006",
+                    )
+                    .attr(
+                        "xmlns:wp14",
+                        "http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing",
+                    )
+                    .attr(
+                        "xmlns:w14",
+                        "http://schemas.microsoft.com/office/word/2010/wordml",
+                    )
+                    .attr("mc:Ignorable", "w14 wp14"),
+            )
+            .expect("should write to buf");
+        self
+    }
+}
