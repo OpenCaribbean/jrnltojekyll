@@ -92,4 +92,20 @@
         <w:rPr />
         <w:ind w:left="3360" w:hanging="420" />
       </w:pPr>
- 
+    </w:lvl>
+    <w:lvl w:ilvl="8">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimalEnclosedCircle" />
+      <w:lvlText w:val="%9" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:pStyle w:val="Normal" />
+        <w:rPr />
+        <w:ind w:left="3780" w:hanging="420" />
+      </w:pPr>
+    </w:lvl>
+  </w:abstractNum>
+  <w:num w:numId="0">
+    <w:abstractNumId w:val="0" />
+  </w:num>
+</w:numbering>
