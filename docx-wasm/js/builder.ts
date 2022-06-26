@@ -92,3 +92,52 @@ function buildParagraph(child: Paragraph) {
   }
 
   if (child.property.paragraphPropertyChange) {
+    let change = wasm.createParagraphPropertyChange();
+    change = change
+      .author(child.property.paragraphPropertyChange._author)
+      .date(child.property.paragraphPropertyChange._date);
+
+    if (child.property.paragraphPropertyChange._property.numbering) {
+      change = change.numbering(
+        child.property.paragraphPropertyChange._property.numbering.id,
+        child.property.paragraphPropertyChange._property.numbering.level
+      );
+    }
+    // TODO: add style, indent, alignment
+    paragraph = paragraph.paragraph_property_change(change);
+  }
+
+  return paragraph;
+}
+
+function buildComment(child: Comment) {
+  let comment = wasm.createComment(child.id);
+  child.children.forEach((c) => {
+    if (c instanceof Paragraph) {
+      comment = comment.add_paragraph(buildParagraph(c));
+    } else if (child instanceof Table) {
+      // TODO: Support later
+    }
+  });
+  if (child._author) {
+    comment = comment.author(child._author);
+  }
+  if (child._date) {
+    comment = comment.date(child._date);
+  }
+  if (child._parentCommentId) {
+    comment = comment.parent_comment_id(child._parentCommentId);
+  }
+  return comment;
+}
+
+export function build<T>(child: Child) {
+  if (child instanceof Comment) {
+    return buildComment(child) as T;
+  } else if (child instanceof Paragraph) {
+    return buildParagraph(child) as T;
+  } else if (child instanceof Hyperlink) {
+    return buildHyperlink(child) as T;
+  }
+  throw new Error(`not found builder for child: ${child}`);
+}
