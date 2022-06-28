@@ -121,4 +121,43 @@ export class Paragraph {
   }
 
   // run property
-  size(s
+  size(size: number) {
+    this.property.runProperty = { ...this.property.runProperty, size };
+    return this;
+  }
+
+  bold() {
+    this.property.runProperty = { ...this.property.runProperty, bold: true };
+    return this;
+  }
+
+  italic() {
+    this.property.runProperty = { ...this.property.runProperty, italic: true };
+    return this;
+  }
+
+  fonts(fonts: RunFonts) {
+    this.property.runProperty = { ...this.property.runProperty, fonts };
+    return this;
+  }
+
+  delete(author: string, date: string) {
+    this.property.runProperty.del = { author, date };
+    return this;
+  }
+
+  insert(author: string, date: string) {
+    this.property.runProperty.ins = { author, date };
+    return this;
+  }
+
+  outlineLevel(v: number) {
+    this.property = { ...this.property, outlineLvl: v };
+    return this;
+  }
+
+  paragraphPropertyChange(propertyChange: ParagraphPropertyChange) {
+    this.property.paragraphPropertyChange = propertyChange;
+    return this;
+  }
+}
