@@ -73,4 +73,100 @@ export class TableCell {
     if (p.hasNumberings) {
       this.hasNumberings = true;
     }
-    this.children.
+    this.children.push(p);
+    return this;
+  }
+
+  addTable(t: Table) {
+    if (t.hasNumberings) {
+      this.hasNumberings = true;
+    }
+    this.children.push(t);
+    return this;
+  }
+
+  verticalMerge(t: VMergeType) {
+    this.property.verticalMerge = t;
+    return this;
+  }
+
+  verticalAlign(t: VAlignType) {
+    this.property.verticalAlign = t;
+    return this;
+  }
+
+  gridSpan(v: number) {
+    this.property.gridSpan = v;
+    return this;
+  }
+
+  width(v: number) {
+    this.property.width = v;
+    return this;
+  }
+
+  shading(type: string, color: string, fill: string) {
+    const s = new Shading();
+    s.color(color);
+    s.fill(fill);
+    s.type(type);
+    this.property.shading = s;
+    return this;
+  }
+
+  textDirection(t: TextDirectionType) {
+    this.property.textDirection = t;
+    return this;
+  }
+
+  setBorder(border: TableCellBorder) {
+    this.property.borders[border.position.toLowerCase() as PositionKeys] =
+      border;
+    return this;
+  }
+
+  clearBorder(position: TableCellBorderPosition) {
+    this.property.borders[position.toLowerCase() as PositionKeys] =
+      new TableCellBorder(position).border_type("nil");
+    return this;
+  }
+
+  buildCellBorders(cell: wasm.TableCell): wasm.TableCell {
+    if (this.property.borders.top) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Top)
+        .size(this.property.borders.top._size)
+        .color(this.property.borders.top._color)
+        .border_type(convertBorderType(this.property.borders.top._border_type));
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.right) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Right)
+        .size(this.property.borders.right._size)
+        .color(this.property.borders.right._color)
+        .border_type(
+          convertBorderType(this.property.borders.right._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.bottom) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Bottom)
+        .size(this.property.borders.bottom._size)
+        .color(this.property.borders.bottom._color)
+        .border_type(
+          convertBorderType(this.property.borders.bottom._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.left) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Left)
+        .size(this.property.borders.left._size)
+        .color(this.property.borders.left._color)
+        .border_type(
+          convertBorderType(this.proper
