@@ -54,4 +54,26 @@ export class TableCellBorders {
       case "right":
         this.right = nil;
       case "insideH":
-        this.insideH = n
+        this.insideH = nil;
+      case "insideV":
+        this.insideV = nil;
+      case "tl2br":
+        this.tl2br = nil;
+      case "tr2bl":
+        this.tr2bl = nil;
+    }
+    return this;
+  }
+
+  clearAll() {
+    this.top = new TableCellBorder("top").border_type("nil");
+    this.left = new TableCellBorder("left").border_type("nil");
+    this.bottom = new TableCellBorder("bottom").border_type("nil");
+    this.right = new TableCellBorder("right").border_type("nil");
+    this.insideH = new TableCellBorder("insideH").border_type("nil");
+    this.insideV = new TableCellBorder("insideV").border_type("nil");
+    this.tl2br = new TableCellBorder("tl2br").border_type("nil");
+    this.tr2bl = new TableCellBorder("tr2bl").border_type("nil");
+    return this;
+  }
+}
