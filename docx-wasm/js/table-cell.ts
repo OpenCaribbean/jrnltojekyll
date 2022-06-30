@@ -169,4 +169,88 @@ export class TableCell {
         .size(this.property.borders.left._size)
         .color(this.property.borders.left._color)
         .border_type(
-          convertBorderType(this.proper
+          convertBorderType(this.property.borders.left._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.insideH) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.InsideH)
+        .size(this.property.borders.insideH._size)
+        .color(this.property.borders.insideH._color)
+        .border_type(
+          convertBorderType(this.property.borders.insideH._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.insideV) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.InsideV)
+        .size(this.property.borders.insideV._size)
+        .color(this.property.borders.insideV._color)
+        .border_type(
+          convertBorderType(this.property.borders.insideV._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.tl2br) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Tl2br)
+        .size(this.property.borders.tl2br._size)
+        .color(this.property.borders.tl2br._color)
+        .border_type(
+          convertBorderType(this.property.borders.tl2br._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    if (this.property.borders.tr2bl) {
+      const border = wasm
+        .createTableCellBorder(wasm.TableCellBorderPosition.Tr2bl)
+        .size(this.property.borders.tr2bl._size)
+        .color(this.property.borders.tr2bl._color)
+        .border_type(
+          convertBorderType(this.property.borders.tr2bl._border_type)
+        );
+      cell = cell.set_border(border);
+    }
+
+    return cell;
+  }
+
+  build() {
+    let cell = wasm.createTableCell();
+    this.children.forEach((c) => {
+      if (c instanceof Paragraph) {
+        cell = cell.add_paragraph(build(c));
+      } else if (c instanceof Table) {
+        const table = c.build();
+        cell = cell.add_table(table);
+      }
+    });
+
+    if (this.property.verticalMerge === "continue") {
+      cell = cell.vertical_merge(wasm.VMergeType.Continue);
+    } else if (this.property.verticalMerge === "restart") {
+      cell = cell.vertical_merge(wasm.VMergeType.Restart);
+    }
+
+    switch (this.property.verticalAlign) {
+      case "top": {
+        cell = cell.vertical_align(wasm.VAlignType.Top);
+        break;
+      }
+      case "center": {
+        cell = cell.vertical_align(wasm.VAlignType.Center);
+        break;
+      }
+      case "bottom": {
+        cell = cell.vertical_align(wasm.VAlignType.Bottom);
+        break;
+      }
+    }
+
+    if (typeof this.
