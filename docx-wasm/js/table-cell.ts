@@ -253,4 +253,32 @@ export class TableCell {
       }
     }
 
-    if (typeof this.
+    if (typeof this.property.gridSpan !== "undefined") {
+      cell = cell.grid_span(this.property.gridSpan);
+    }
+
+    if (typeof this.property.width !== "undefined") {
+      cell = cell.width(this.property.width);
+    }
+
+    if (typeof this.property.textDirection !== "undefined") {
+      cell = cell.text_direction(
+        toTextDirectionWasmType(this.property.textDirection)
+      );
+    }
+
+    if (typeof this.property.borders !== "undefined") {
+      cell = this.buildCellBorders(cell);
+    }
+
+    if (typeof this.property.shading !== "undefined") {
+      cell = cell.shading(
+        this.property.shading._type,
+        this.property.shading._color,
+        this.property.shading._fill
+      );
+    }
+
+    return cell;
+  }
+}
