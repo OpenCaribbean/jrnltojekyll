@@ -1,0 +1,53 @@
+{
+  "name": "docx-wasm",
+  "version": "0.0.277-rc4",
+  "main": "dist/node/index.js",
+  "browser": "dist/web/index.js",
+  "author": "bokuweb <bokuweb12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "wasm-pack:dev": "wasm-pack build --out-dir js/pkg",
+    "wasm-pack:web": "wasm-pack build --release --out-dir dist/web/pkg",
+    "wasm-pack:node": "wasm-pack build --release --out-dir dist/node/pkg --target nodejs",
+    "wasm-pack": "run-s wasm-pack:*",
+    "tsc:web": "tsc -p tsconfig.web.json --sourcemap",
+    "tsc:node": "tsc -p tsconfig.node.json --sourcemap",
+    "tsc": "run-s tsc:*",
+    "test": "npm run build && tsc && jest",
+    "build": "run-s tsrs copy:bindings wasm-pack tsc",
+    "serve": "webpack-dev-server --open --config webpack.dev.js",
+    "copy": "cpy 'dist/node/pkg/package.json'  'dist/web/pkg'",
+    "tsrs": "cd ../ && make test",
+    "copy:bindings": "cpy '../docx-core/bindings' './js/json'",
+    "prepublishOnly": "npm run build"
+  },
+  "resolutions": {
+    "**/serialize-javascript": "6.0.0"
+  },
+  "devDependencies": {
+    "@types/file-saver": "2.0.5",
+    "@wasm-tool/wasm-pack-plugin": "1.6.0",
+    "adm-zip": "0.5.9",
+    "cpy-cli": "4.2.0",
+    "file-saver": "2.0.5",
+    "html-webpack-plugin": "4.5.2",
+    "jest": "28.1.3",
+    "npm-run-all": "4.1.5",
+    "text-encoding": "0.7.0",
+    "ts-loader": "9.4.2",
+    "typescript": "4.9.3",
+    "webpack": "4.46.0",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "3.11.3",
+    "webpack-merge": "5.8.0"
+  },
+  "files": [
+    "dist",
+    "dist/web/pkg/*",
+    "dist/node/pkg/*",
+    "js/*"
+  ],
+  "module": "dist/web/index.js",
+  "types": "dist/web/index.d.ts",
+  "dependencies": {}
+}

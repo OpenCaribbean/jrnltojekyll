@@ -229,4 +229,5 @@ export const setTableProperty = <T extends wasm.Table | wasm.Style>(
       break;
     }
   }
-  ret
+  return target;
+};
