@@ -73,4 +73,104 @@ impl Docx {
     }
 
     pub fn add_doc_var(mut self, name: &str, val: &str) -> Docx {
-        self.0 = self.0
+        self.0 = self.0.add_doc_var(name, val);
+        self
+    }
+
+    pub fn default_tab_stop(mut self, stop: usize) -> Docx {
+        self.0 = self.0.default_tab_stop(stop);
+        self
+    }
+
+    pub fn set_adjust_line_height_in_table(mut self) -> Self {
+        self.0.settings = self.0.settings.adjust_line_height_in_table();
+        self
+    }
+
+    pub fn header(mut self, header: Header) -> Self {
+        self.0 = self.0.header(header.take());
+        self
+    }
+
+    pub fn first_header(mut self, header: Header) -> Self {
+        self.0 = self.0.first_header(header.take());
+        self
+    }
+
+    pub fn even_header(mut self, header: Header) -> Self {
+        self.0 = self.0.even_header(header.take());
+        self
+    }
+
+    pub fn footer(mut self, footer: Footer) -> Self {
+        self.0 = self.0.footer(footer.take());
+        self
+    }
+
+    pub fn first_footer(mut self, footer: Footer) -> Self {
+        self.0 = self.0.first_footer(footer.take());
+        self
+    }
+
+    pub fn even_footer(mut self, footer: Footer) -> Self {
+        self.0 = self.0.even_footer(footer.take());
+        self
+    }
+
+    pub fn page_size(mut self, w: u32, h: u32) -> Docx {
+        self.0 = self.0.page_size(w, h);
+        self
+    }
+
+    pub fn page_orient(mut self, o: docx_rs::PageOrientationType) -> Docx {
+        self.0 = self.0.page_orient(o);
+        self
+    }
+
+    pub fn page_margin(mut self, margin: PageMargin) -> Docx {
+        self.0 = self.0.page_margin(margin.take());
+        self
+    }
+
+    pub fn add_style(mut self, s: Style) -> Self {
+        self.0.styles = self.0.styles.add_style(s.take());
+        self
+    }
+
+    pub fn default_size(mut self, size: usize) -> Self {
+        self.0.styles = self.0.styles.default_size(size);
+        self
+    }
+
+    pub fn default_spacing(mut self, spacing: i32) -> Self {
+        self.0.styles = self.0.styles.default_spacing(spacing);
+        self
+    }
+
+    pub fn default_fonts(mut self, font: RunFonts) -> Self {
+        self.0.styles = self.0.styles.default_fonts(font.take());
+        self
+    }
+
+    pub fn taskpanes(mut self) -> Self {
+        self.0 = self.0.taskpanes();
+        self
+    }
+
+    pub fn web_extension(mut self, ext: WebExtension) -> Self {
+        self.0 = self.0.web_extension(ext.take());
+        self
+    }
+
+    pub fn add_custom_item(mut self, id: &str, xml: &str) -> Self {
+        self.0 = self.0.add_custom_item(id, xml);
+        self
+    }
+
+    pub fn doc_grid(
+        mut self,
+        grid_type: docx_rs::DocGridType,
+        line_pitch: Option<usize>,
+        char_space: Option<isize>,
+    ) -> Self {
+        let mut doc_grid = docx_rs::DocGrid::with_empty().grid_type(grid_ty
