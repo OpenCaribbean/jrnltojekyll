@@ -20,4 +20,51 @@ impl Hyperlink {
 
     pub fn add_insert(mut self, i: Insert) -> Self {
         self.0
-            
+            .children
+            .push(docx_rs::ParagraphChild::Insert(i.take()));
+        self
+    }
+
+    pub fn add_delete(mut self, d: Delete) -> Self {
+        self.0
+            .children
+            .push(docx_rs::ParagraphChild::Delete(d.take()));
+        self
+    }
+
+    pub fn add_bookmark_start(mut self, id: usize, name: &str) -> Self {
+        self.0.children.push(docx_rs::ParagraphChild::BookmarkStart(
+            docx_rs::BookmarkStart::new(id, name),
+        ));
+        self
+    }
+
+    pub fn add_bookmark_end(mut self, id: usize) -> Self {
+        self.0.children.push(docx_rs::ParagraphChild::BookmarkEnd(
+            docx_rs::BookmarkEnd::new(id),
+        ));
+        self
+    }
+
+    pub fn add_comment_start(mut self, comment: Comment) -> Self {
+        self.0
+            .children
+            .push(docx_rs::ParagraphChild::CommentStart(Box::new(
+                docx_rs::CommentRangeStart::new(comment.take()),
+            )));
+        self
+    }
+
+    pub fn add_comment_end(mut self, id: usize) -> Self {
+        self.0.children.push(docx_rs::ParagraphChild::CommentEnd(
+            docx_rs::CommentRangeEnd::new(id),
+        ));
+        self
+    }
+}
+
+impl Hyperlink {
+    pub fn take(self) -> docx_rs::Hyperlink {
+        self.0
+    }
+}
