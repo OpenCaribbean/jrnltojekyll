@@ -5,4 +5,7 @@ use wasm_bindgen::prelude::*;
 pub fn readDocx(buf: &[u8]) -> Result<String, JsValue> {
     let mut d = docx_rs::read_docx(buf);
     match d {
-        Ok(re
+        Ok(ref mut d) => Ok(d.json()),
+        Err(e) => Err(e.to_string().into()),
+    }
+}
