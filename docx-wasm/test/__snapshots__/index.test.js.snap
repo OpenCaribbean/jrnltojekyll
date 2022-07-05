@@ -1,0 +1,740 @@
+
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reader should read afterLines docx 1`] = `
+Object {
+  "comments": Object {
+    "comments": Array [],
+  },
+  "commentsExtended": Object {
+    "children": Array [],
+  },
+  "contentType": Object {
+    "custom_xml_count": 1,
+    "footer_count": 0,
+    "header_count": 0,
+    "types": Object {
+      "/_rels/.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/docProps/app.xml": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+      "/docProps/core.xml": "application/vnd.openxmlformats-package.core-properties+xml",
+      "/docProps/custom.xml": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
+      "/word/_rels/document.xml.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/word/comments.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+      "/word/commentsExtended.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+      "/word/document.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+      "/word/fontTable.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+      "/word/numbering.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
+      "/word/settings.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+      "/word/styles.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+    },
+    "web_extension_count": 1,
+  },
+  "customItemProps": Array [],
+  "customItemRels": Array [],
+  "customItems": Array [],
+  "docProps": Object {
+    "app": Object {},
+    "core": Object {
+      "config": Object {
+        "created": null,
+        "creator": null,
+        "description": null,
+        "language": null,
+        "lastModifiedBy": null,
+        "modified": null,
+        "revision": null,
+        "subject": null,
+        "title": null,
+      },
+    },
+    "custom": Object {
+      "properties": Object {},
+    },
+  },
+  "document": Object {
+    "children": Array [
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "第１条　",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ほげほげほげ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ー",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "78D5F6F5",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "　　　　こんにちは、こんにちは。",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Space after",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "47E607A1",
+          "property": Object {
+            "lineSpacing": Object {
+              "after": 720,
+            },
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "第",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "2",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "条　",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ほげほげほげ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ー",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "1D02E472",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "　　　　こんにちは、こんにちは。",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "1302AFDA",
+          "property": Object {
+            "runProperty": Object {
+              "fonts": Object {
+                "hint": "eastAsia",
+              },
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "第",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "3",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "条　",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ほげほげほげ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ー",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "3C9869CF",
+          "property": Object {
+            "lineSpacing": Object {
+              "before": 720,
+              "beforeLines": 200,
+            },
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "　　　　こんにちは、こんにちは",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "。",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Space before",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "3E200AEF",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "4047C950",
+          "property": Object {
+            "runProperty": Object {
+              "fonts": Object {
+                "hint": "eastAsia",
+              },
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+    ],
+    "hasNumbering": false,
+    "sectionProperty": Object {
+      "columns": 1,
+      "docGrid": Object {
+        "charSpace": null,
+        "gridType": "lines",
+        "linePitch": 360,
+      },
+      "pageMargin": Object {
+        "bottom": 1701,
+        "footer": 992,
+        "gutter": 0,
+        "header": 851,
+        "left": 1701,
+        "right": 1701,
+        "top": 1985,
+      },
+      "pageSize": Object {
+        "h": 16840,
+        "orient": null,
+        "w": 11900,
+      },
+      "space": 425,
+      "textDirection": "lrTb",
+      "titlePg": false,
+    },
+  },
+  "documentRels": Object {
+    "customXmlCount": 0,
+    "footerCount": 0,
+    "hasComments": false,
+    "hasNumberings": false,
+    "headerCount": 0,
+    "hyperlinks": Array [],
+    "images": Array [],
+  },
+  "fontTable": Object {},
+  "hyperlinks": Array [],
+  "images": Array [],
+  "media": Array [],
+  "numberings": Object {
+    "abstractNums": Array [],
+    "numberings": Array [],
+  },
+  "rels": Object {
+    "rels": Array [
+      Array [
+        "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+        "rId1",
+        "docProps/core.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+        "rId2",
+        "docProps/app.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+        "rId3",
+        "word/document.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+        "rId4",
+        "docProps/custom.xml",
+      ],
+    ],
+  },
+  "settings": Object {
+    "adjustLineHeightInTable": true,
+    "defaultTabStop": 840,
+    "docId": "FB0AE6E2-8FB8-3345-A8FC-78CE6F3ABE4E",
+    "docVars": Array [],
+    "evenAndOddHeaders": false,
+    "zoom": 100,
+  },
+  "styles": Object {
+    "docDefaults": Object {
+      "runPropertyDefault": Object {
+        "runProperty": Object {
+          "fonts": Object {
+            "asciiTheme": "minorHAnsi",
+            "csTheme": "minorBidi",
+            "eastAsiaTheme": "minorEastAsia",
+            "hiAnsiTheme": "minorHAnsi",
+          },
+          "sz": 21,
+          "szCs": 21,
+        },
+      },
+    },
+    "styles": Array [
+      Object {
+        "basedOn": null,
+        "name": "Normal",
+        "next": null,
+        "paragraphProperty": Object {
+          "alignment": "both",
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Default Paragraph Font",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a0",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",

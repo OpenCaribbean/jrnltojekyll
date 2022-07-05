@@ -27,3 +27,14 @@ impl TableOfContentsItem {
         self.0.toc_key = a.into();
         self
     }
+
+    pub fn level(mut self, l: usize) -> Self {
+        self.0.level = l;
+        self
+    }
+
+    pub fn page_ref(mut self, a: &str) -> Self {
+        self.0.page_ref = Some(a.into());
+        self
+    }
+}
