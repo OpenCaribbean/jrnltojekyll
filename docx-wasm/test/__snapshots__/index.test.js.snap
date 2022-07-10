@@ -24087,3 +24087,2677 @@ Object {
     ],
   },
   "settings": Object {
+    "adjustLineHeightInTable": true,
+    "defaultTabStop": 840,
+    "docId": "10BE20B6-DCA9-7441-B548-606D7D9EDD92",
+    "docVars": Array [],
+    "evenAndOddHeaders": false,
+    "zoom": 100,
+  },
+  "styles": Object {
+    "docDefaults": Object {
+      "runPropertyDefault": Object {
+        "runProperty": Object {
+          "fonts": Object {
+            "asciiTheme": "minorHAnsi",
+            "csTheme": "minorBidi",
+            "eastAsiaTheme": "minorEastAsia",
+            "hiAnsiTheme": "minorHAnsi",
+          },
+          "sz": 21,
+          "szCs": 21,
+        },
+      },
+    },
+    "styles": Array [
+      Object {
+        "basedOn": null,
+        "name": "Normal",
+        "next": null,
+        "paragraphProperty": Object {
+          "alignment": "both",
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Default Paragraph Font",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a0",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Normal Table",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a1",
+        "styleType": "table",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": null,
+            "insideH": null,
+            "insideV": null,
+            "left": null,
+            "right": null,
+            "top": null,
+          },
+          "justification": "left",
+          "margins": Object {
+            "bottom": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+            "left": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "right": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "top": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+          },
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "No List",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a2",
+        "styleType": "numbering",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": "a",
+        "name": "List Paragraph",
+        "next": null,
+        "paragraphProperty": Object {
+          "indent": Object {
+            "end": null,
+            "firstLineChars": null,
+            "hangingChars": null,
+            "specialIndent": null,
+            "start": 840,
+            "startChars": 400,
+          },
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a3",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+    ],
+  },
+  "taskpanes": null,
+  "taskpanesRels": Object {
+    "rels": Array [],
+  },
+  "themes": Array [
+    Object {
+      "fontSchema": Object {
+        "majorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游ゴシック Light",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线 Light",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Angsana New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "MoolBoran",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游ゴシック Light",
+        },
+        "minorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游明朝",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Cordia New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "DaunPenh",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游明朝",
+        },
+      },
+    },
+  ],
+  "webExtensions": Array [],
+  "webSettings": Object {
+    "divs": Array [],
+  },
+}
+`;
+
+exports[`reader should read multi paragraph comments docx 1`] = `
+Object {
+  "comments": Object {
+    "comments": Array [
+      Object {
+        "author": "admin",
+        "children": Array [
+          Object {
+            "data": Object {
+              "children": Array [
+                Object {
+                  "data": Object {
+                    "children": Array [
+                      Object {
+                        "data": Object {
+                          "preserveSpace": true,
+                          "text": "Hello",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "runProperty": Object {},
+                  },
+                  "type": "run",
+                },
+              ],
+              "hasNumbering": false,
+              "id": "00000008",
+              "property": Object {
+                "runProperty": Object {},
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "date": "2020-12-18T15:28:00Z",
+        "id": 2,
+        "parentCommentId": null,
+      },
+      Object {
+        "author": "admin",
+        "children": Array [
+          Object {
+            "data": Object {
+              "children": Array [
+                Object {
+                  "data": Object {
+                    "children": Array [
+                      Object {
+                        "data": Object {
+                          "preserveSpace": true,
+                          "text": "World",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "runProperty": Object {},
+                  },
+                  "type": "run",
+                },
+              ],
+              "hasNumbering": false,
+              "id": "0000000C",
+              "property": Object {
+                "runProperty": Object {},
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "date": "2020-12-18T15:29:00Z",
+        "id": 4,
+        "parentCommentId": null,
+      },
+      Object {
+        "author": "bokuweb",
+        "children": Array [
+          Object {
+            "data": Object {
+              "children": Array [
+                Object {
+                  "data": Object {
+                    "children": Array [],
+                    "runProperty": Object {
+                      "style": "a5",
+                    },
+                  },
+                  "type": "run",
+                },
+                Object {
+                  "data": Object {
+                    "children": Array [
+                      Object {
+                        "data": Object {
+                          "preserveSpace": true,
+                          "text": "Aaaaaa",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "runProperty": Object {},
+                  },
+                  "type": "run",
+                },
+              ],
+              "hasNumbering": false,
+              "id": "7D16F7F3",
+              "property": Object {
+                "runProperty": Object {},
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [
+                Object {
+                  "data": Object {
+                    "children": Array [
+                      Object {
+                        "data": Object {
+                          "preserveSpace": true,
+                          "text": "a",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "runProperty": Object {
+                      "fonts": Object {
+                        "hint": "eastAsia",
+                      },
+                    },
+                  },
+                  "type": "run",
+                },
+                Object {
+                  "data": Object {
+                    "children": Array [
+                      Object {
+                        "data": Object {
+                          "preserveSpace": true,
+                          "text": "aaa",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "runProperty": Object {},
+                  },
+                  "type": "run",
+                },
+              ],
+              "hasNumbering": false,
+              "id": "6BD9526A",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "0B3BA2D3",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "09E224F0",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "4A34DA48",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "68A6CCC7",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "620AD937",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+          Object {
+            "data": Object {
+              "children": Array [],
+              "hasNumbering": false,
+              "id": "4E7C0B2F",
+              "property": Object {
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+                "style": "a3",
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "date": "2020-12-18T17:30:00Z",
+        "id": 5,
+        "parentCommentId": null,
+      },
+    ],
+  },
+  "commentsExtended": Object {
+    "children": Array [
+      Object {
+        "done": false,
+        "paragraphId": "00000008",
+        "parentParagraphId": null,
+      },
+      Object {
+        "done": false,
+        "paragraphId": "0000000C",
+        "parentParagraphId": null,
+      },
+      Object {
+        "done": false,
+        "paragraphId": "4E7C0B2F",
+        "parentParagraphId": null,
+      },
+    ],
+  },
+  "contentType": Object {
+    "custom_xml_count": 1,
+    "footer_count": 0,
+    "header_count": 1,
+    "types": Object {
+      "/_rels/.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/docProps/app.xml": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+      "/docProps/core.xml": "application/vnd.openxmlformats-package.core-properties+xml",
+      "/docProps/custom.xml": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
+      "/word/_rels/document.xml.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/word/comments.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+      "/word/commentsExtended.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+      "/word/document.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+      "/word/fontTable.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+      "/word/header1.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml",
+      "/word/numbering.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
+      "/word/settings.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+      "/word/styles.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+    },
+    "web_extension_count": 1,
+  },
+  "customItemProps": Array [],
+  "customItemRels": Array [],
+  "customItems": Array [],
+  "docProps": Object {
+    "app": Object {},
+    "core": Object {
+      "config": Object {
+        "created": null,
+        "creator": null,
+        "description": null,
+        "language": null,
+        "lastModifiedBy": null,
+        "modified": null,
+        "revision": null,
+        "subject": null,
+        "title": null,
+      },
+    },
+    "custom": Object {
+      "properties": Object {},
+    },
+  },
+  "document": Object {
+    "children": Array [
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 0,
+                "name": "LWG=55b04568-28f5-467e-b69c-51a057caeda2",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "comment ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 1,
+                "name": "LRC=6a46e35b-c93f-4462-8aff-6361aa20f521",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "comment": Object {
+                  "author": "admin",
+                  "children": Array [
+                    Object {
+                      "data": Object {
+                        "children": Array [
+                          Object {
+                            "data": Object {
+                              "children": Array [
+                                Object {
+                                  "data": Object {
+                                    "preserveSpace": true,
+                                    "text": "Hello",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "runProperty": Object {},
+                            },
+                            "type": "run",
+                          },
+                        ],
+                        "hasNumbering": false,
+                        "id": "00000008",
+                        "property": Object {
+                          "runProperty": Object {},
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                  ],
+                  "date": "2020-12-18T15:28:00Z",
+                  "id": 2,
+                  "parentCommentId": null,
+                },
+                "id": 2,
+              },
+              "type": "commentRangeStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "test",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "00000006",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "id": 2,
+        },
+        "type": "commentRangeEnd",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 1,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "00000009",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 3,
+                "name": "LRC=f99415d6-2c18-4a4c-8635-370b0fa48e57",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "comment": Object {
+                  "author": "admin",
+                  "children": Array [
+                    Object {
+                      "data": Object {
+                        "children": Array [
+                          Object {
+                            "data": Object {
+                              "children": Array [
+                                Object {
+                                  "data": Object {
+                                    "preserveSpace": true,
+                                    "text": "World",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "runProperty": Object {},
+                            },
+                            "type": "run",
+                          },
+                        ],
+                        "hasNumbering": false,
+                        "id": "0000000C",
+                        "property": Object {
+                          "runProperty": Object {},
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                  ],
+                  "date": "2020-12-18T15:29:00Z",
+                  "id": 4,
+                  "parentCommentId": null,
+                },
+                "id": 4,
+              },
+              "type": "commentRangeStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Hello",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": true,
+          "id": "0000000A",
+          "property": Object {
+            "numberingProperty": Object {
+              "id": 2,
+              "level": 0,
+            },
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "World",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": true,
+          "id": "0000000D",
+          "property": Object {
+            "numberingProperty": Object {
+              "id": 2,
+              "level": 0,
+            },
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "id": 4,
+        },
+        "type": "commentRangeEnd",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 3,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "0000000E",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "comment": Object {
+                  "author": "bokuweb",
+                  "children": Array [
+                    Object {
+                      "data": Object {
+                        "children": Array [
+                          Object {
+                            "data": Object {
+                              "children": Array [],
+                              "runProperty": Object {
+                                "style": "a5",
+                              },
+                            },
+                            "type": "run",
+                          },
+                          Object {
+                            "data": Object {
+                              "children": Array [
+                                Object {
+                                  "data": Object {
+                                    "preserveSpace": true,
+                                    "text": "Aaaaaa",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "runProperty": Object {},
+                            },
+                            "type": "run",
+                          },
+                        ],
+                        "hasNumbering": false,
+                        "id": "7D16F7F3",
+                        "property": Object {
+                          "runProperty": Object {},
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [
+                          Object {
+                            "data": Object {
+                              "children": Array [
+                                Object {
+                                  "data": Object {
+                                    "preserveSpace": true,
+                                    "text": "a",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "hint": "eastAsia",
+                                },
+                              },
+                            },
+                            "type": "run",
+                          },
+                          Object {
+                            "data": Object {
+                              "children": Array [
+                                Object {
+                                  "data": Object {
+                                    "preserveSpace": true,
+                                    "text": "aaa",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "runProperty": Object {},
+                            },
+                            "type": "run",
+                          },
+                        ],
+                        "hasNumbering": false,
+                        "id": "6BD9526A",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "0B3BA2D3",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "09E224F0",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "4A34DA48",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "68A6CCC7",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "620AD937",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                    Object {
+                      "data": Object {
+                        "children": Array [],
+                        "hasNumbering": false,
+                        "id": "4E7C0B2F",
+                        "property": Object {
+                          "runProperty": Object {
+                            "fonts": Object {
+                              "hint": "eastAsia",
+                            },
+                          },
+                          "style": "a3",
+                          "tabs": Array [],
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                  ],
+                  "date": "2020-12-18T17:30:00Z",
+                  "id": 5,
+                  "parentCommentId": null,
+                },
+                "id": 5,
+              },
+              "type": "commentRangeStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "H",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ello",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 5,
+              },
+              "type": "commentRangeEnd",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "style": "a5",
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 0,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "0288E91C",
+          "property": Object {
+            "runProperty": Object {
+              "fonts": Object {
+                "hint": "eastAsia",
+              },
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+    ],
+    "hasNumbering": true,
+    "sectionProperty": Object {
+      "columns": 1,
+      "docGrid": Object {
+        "charSpace": null,
+        "gridType": "lines",
+        "linePitch": 360,
+      },
+      "header": Object {
+        "children": Array [
+          Object {
+            "data": Object {
+              "children": Array [
+                Object {
+                  "data": Object {
+                    "children": Array [],
+                    "runProperty": Object {},
+                  },
+                  "type": "run",
+                },
+              ],
+              "hasNumbering": false,
+              "id": "0C07C25B",
+              "property": Object {
+                "runProperty": Object {},
+                "tabs": Array [],
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "hasNumbering": false,
+      },
+      "headerReference": Object {
+        "headerType": "default",
+        "id": "rId11",
+      },
+      "pageMargin": Object {
+        "bottom": 1701,
+        "footer": 992,
+        "gutter": 0,
+        "header": 851,
+        "left": 1701,
+        "right": 1701,
+        "top": 1985,
+      },
+      "pageSize": Object {
+        "h": 16838,
+        "orient": null,
+        "w": 11906,
+      },
+      "space": 425,
+      "textDirection": "lrTb",
+      "titlePg": false,
+    },
+  },
+  "documentRels": Object {
+    "customXmlCount": 0,
+    "footerCount": 0,
+    "hasComments": true,
+    "hasNumberings": false,
+    "headerCount": 1,
+    "hyperlinks": Array [],
+    "images": Array [],
+  },
+  "fontTable": Object {},
+  "hyperlinks": Array [],
+  "images": Array [],
+  "media": Array [],
+  "numberings": Object {
+    "abstractNums": Array [
+      Object {
+        "id": 0,
+        "levels": Array [
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 0,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 420,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%1.",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 1,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 840,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "(%2)",
+          },
+          Object {
+            "format": "decimalEnclosedCircle",
+            "jc": "left",
+            "level": 2,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 1260,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%3",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 3,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 1680,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%4.",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 4,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 2100,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "(%5)",
+          },
+          Object {
+            "format": "decimalEnclosedCircle",
+            "jc": "left",
+            "level": 5,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 2520,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%6",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 6,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 2940,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%7.",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 7,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 3360,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "(%8)",
+          },
+          Object {
+            "format": "decimalEnclosedCircle",
+            "jc": "left",
+            "level": 8,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 420,
+                },
+                "start": 3780,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 1,
+            "suffix": "tab",
+            "text": "%9",
+          },
+        ],
+        "numStyleLink": null,
+        "styleLink": null,
+      },
+      Object {
+        "id": 1,
+        "levels": Array [
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 0,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "indent": Object {
+                "end": 0,
+                "firstLineChars": null,
+                "hangingChars": null,
+                "specialIndent": Object {
+                  "type": "hanging",
+                  "val": 608,
+                },
+                "start": 1216,
+                "startChars": null,
+              },
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {
+              "fonts": Object {
+                "eastAsia": "ＭＳ 明朝",
+              },
+            },
+            "start": 1,
+            "suffix": "tab",
+            "text": "%1.",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 1,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 2,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 3,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 4,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 5,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 6,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 7,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+          Object {
+            "format": "decimal",
+            "jc": "left",
+            "level": 8,
+            "levelRestart": null,
+            "paragraphProperty": Object {
+              "runProperty": Object {},
+              "tabs": Array [],
+            },
+            "pstyle": null,
+            "runProperty": Object {},
+            "start": 0,
+            "suffix": "tab",
+            "text": "",
+          },
+        ],
+        "numStyleLink": null,
+        "styleLink": null,
+      },
+    ],
+    "numberings": Array [
+      Object {
+        "abstractNumId": 0,
+        "id": 1,
+        "levelOverrides": Array [],
+      },
+      Object {
+        "abstractNumId": 1,
+        "id": 2,
+        "levelOverrides": Array [],
+      },
+    ],
+  },
+  "rels": Object {
+    "rels": Array [
+      Array [
+        "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+        "rId1",
+        "docProps/core.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+        "rId2",
+        "docProps/app.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+        "rId3",
+        "word/document.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+        "rId4",
+        "docProps/custom.xml",
+      ],
+    ],
+  },
+  "settings": Object {
+    "adjustLineHeightInTable": true,
+    "defaultTabStop": 709,
+    "docId": "70F68831-609A-4ACC-87CE-416E9D216976",
+    "docVars": Array [
+      Object {
+        "name": "lawgueComment0",
+        "val": "{\\"id\\":\\"dede4272-888b-44c2-840e-ee0c494e84b9\\",\\"commentHash\\":\\"f5a7924e621e84c9280a9a27e1bcb7f6\\",\\"articleId\\":\\"55b04568-28f5-467e-b69c-51a057caeda2\\",\\"commentRangeId\\":\\"f99415d6-2c18-4a4c-8635-370b0fa48e57\\",\\"createdBy\\":\\"admin\\",\\"updatedAt\\":\\"2020-12-18T06:29:02.576Z\\",\\"parentCommentId\\":null}",
+      },
+      Object {
+        "name": "lawgueComment1",
+        "val": "{\\"id\\":\\"c3327226-c646-42fd-8747-366d471232d7\\",\\"commentHash\\":\\"8b1a9953c4611296a827abf8c47804d7\\",\\"articleId\\":\\"55b04568-28f5-467e-b69c-51a057caeda2\\",\\"commentRangeId\\":\\"6a46e35b-c93f-4462-8aff-6361aa20f521\\",\\"createdBy\\":\\"admin\\",\\"updatedAt\\":\\"2020-12-18T06:28:45.760Z\\",\\"parentCommentId\\":null}",
+      },
+    ],
+    "evenAndOddHeaders": false,
+    "zoom": 100,
+  },
+  "styles": Object {
+    "docDefaults": Object {
+      "runPropertyDefault": Object {
+        "runProperty": Object {
+          "fonts": Object {
+            "ascii": "Times New Roman",
+            "cs": "Times New Roman",
+            "eastAsia": "ＭＳ 明朝",
+            "hiAnsi": "Times New Roman",
+          },
+          "sz": 21,
+          "szCs": 21,
+        },
+      },
+    },
+    "styles": Array [
+      Object {
+        "basedOn": null,
+        "name": "Normal",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Default Paragraph Font",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a0",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Normal Table",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a1",
+        "styleType": "table",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": null,
+            "insideH": null,
+            "insideV": null,
+            "left": null,
+            "right": null,
+            "top": null,
+          },
+          "justification": "left",
+          "margins": Object {
+            "bottom": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+            "left": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "right": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "top": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+          },
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "No List",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a2",
+        "styleType": "numbering",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": "a",
+        "link": "a4",
+        "name": "annotation text",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a3",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": "a0",
+        "link": "a3",
+        "name": "コメント文字列 (文字)",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a4",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": "a0",
+        "name": "annotation reference",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {
+          "sz": 18,
+          "szCs": 18,
+        },
+        "styleId": "a5",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
