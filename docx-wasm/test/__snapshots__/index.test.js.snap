@@ -94027,3 +94027,2708 @@ Object {
         },
         "runProperty": Object {
           "fonts": Object {
+            "ascii": "Times New Roman",
+            "hiAnsi": "Times New Roman",
+          },
+        },
+        "styleId": "TableBullet1",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "endnote reference",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {
+          "vertAlign": "superscript",
+        },
+        "styleId": "afffe",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+    ],
+  },
+  "taskpanes": null,
+  "taskpanesRels": Object {
+    "rels": Array [],
+  },
+  "themes": Array [
+    Object {
+      "fontSchema": Object {
+        "majorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游ゴシック Light",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线 Light",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Angsana New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "MoolBoran",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游ゴシック Light",
+        },
+        "minorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游明朝",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Cordia New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "DaunPenh",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游明朝",
+        },
+      },
+    },
+  ],
+  "webExtensions": Array [],
+  "webSettings": Object {
+    "divs": Array [
+      Object {
+        "divsChild": Array [],
+        "id": "184095413",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "184486977",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "208612972",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "210922914",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "212812263",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "224804106",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "426312069",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "439254259",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "472799645",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "483089288",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [
+          Object {
+            "divsChild": Array [],
+            "id": "476648699",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "543909121",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "1314606153",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "1666592811",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "1830361099",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "1947613540",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+          Object {
+            "divsChild": Array [],
+            "id": "2121148439",
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+          },
+        ],
+        "id": "491264713",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "535506433",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "730080836",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "741873928",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "745344172",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "794493682",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "816066318",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1098717801",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1202784290",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1225023401",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1277373860",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1308053172",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1359694210",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1360938323",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1424491985",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1520773236",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1538155121",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1560827681",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1672638584",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1723477944",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1730960472",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1745254395",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1815558208",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1880899685",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1905404845",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1948926280",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1954366303",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1993831891",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "2067339773",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+    ],
+  },
+}
+`;
+
+exports[`reader should read specVanish 1`] = `
+Object {
+  "comments": Object {
+    "comments": Array [],
+  },
+  "commentsExtended": Object {
+    "children": Array [],
+  },
+  "contentType": Object {
+    "custom_xml_count": 1,
+    "footer_count": 2,
+    "header_count": 2,
+    "types": Object {
+      "/_rels/.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/docProps/app.xml": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+      "/docProps/core.xml": "application/vnd.openxmlformats-package.core-properties+xml",
+      "/docProps/custom.xml": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
+      "/word/_rels/document.xml.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/word/comments.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+      "/word/commentsExtended.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+      "/word/document.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+      "/word/fontTable.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+      "/word/footer1.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml",
+      "/word/footer2.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml",
+      "/word/header1.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml",
+      "/word/header2.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml",
+      "/word/numbering.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
+      "/word/settings.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+      "/word/styles.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+    },
+    "web_extension_count": 1,
+  },
+  "customItemProps": Array [],
+  "customItemRels": Array [],
+  "customItems": Array [],
+  "docProps": Object {
+    "app": Object {},
+    "core": Object {
+      "config": Object {
+        "created": null,
+        "creator": null,
+        "description": null,
+        "language": null,
+        "lastModifiedBy": null,
+        "modified": null,
+        "revision": null,
+        "subject": null,
+        "title": null,
+      },
+    },
+    "custom": Object {
+      "properties": Object {
+        "DOCXDOCID": "Block DocID",
+      },
+    },
+  },
+  "document": Object {
+    "children": Array [
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "03717F66",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "343116B1",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "5A404556",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "6EB0E78E",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "13B02155",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "66FB7F56",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "5950EEB1",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "10E1DE16",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "BYLAWS",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " OF",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "4411A70B",
+          "property": Object {
+            "lineSpacing": Object {
+              "before": 0,
+            },
+            "runProperty": Object {},
+            "style": "CenterTextBold",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "preserveSpace": true,
+                            "text": "[",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "runProperty": Object {},
+                    },
+                    "type": "run",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "preserveSpace": true,
+                            "text": "INSERT US SUB NAME",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "runProperty": Object {
+                        "highlight": "yellow",
+                      },
+                    },
+                    "type": "run",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "preserveSpace": true,
+                            "text": "]",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "runProperty": Object {},
+                    },
+                    "type": "run",
+                  },
+                ],
+                "hasNumbering": false,
+                "id": "74421B8C",
+                "property": Object {
+                  "runProperty": Object {},
+                  "style": "CenterTextBold",
+                  "tabs": Array [],
+                },
+              },
+              "type": "paragraph",
+            },
+          ],
+          "hasNumbering": false,
+          "property": Object {
+            "alias": null,
+            "dataBinding": null,
+            "runProperty": Object {},
+          },
+        },
+        "type": "structuredDataTag",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "2727BFCC",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Adopted ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "_____",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "__________",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "___",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "20",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "21",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "3AF5CB5A",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "02871829",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [],
+          "hasNumbering": false,
+          "id": "13B695EB",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "sectionProperty": Object {
+              "columns": 1,
+              "docGrid": Object {
+                "charSpace": null,
+                "gridType": "default",
+                "linePitch": 326,
+              },
+              "firstFooterReference": Object {
+                "footerType": "first",
+                "id": "rId10",
+              },
+              "footerReference": Object {
+                "footerType": "default",
+                "id": "rId9",
+              },
+              "headerReference": Object {
+                "headerType": "default",
+                "id": "rId8",
+              },
+              "pageMargin": Object {
+                "bottom": 1440,
+                "footer": 1080,
+                "gutter": 0,
+                "header": 1440,
+                "left": 1440,
+                "right": 1440,
+                "top": 1440,
+              },
+              "pageSize": Object {
+                "h": 15840,
+                "orient": null,
+                "w": 12240,
+              },
+              "space": 425,
+              "textDirection": "lrTb",
+              "titlePg": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 0,
+                "name": "_Toc511045564",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "BYLAWS",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "3C46632B",
+          "property": Object {
+            "alignment": "center",
+            "indent": Object {
+              "end": null,
+              "firstLineChars": null,
+              "hangingChars": null,
+              "specialIndent": Object {
+                "type": "firstLine",
+                "val": 0,
+              },
+              "start": null,
+              "startChars": null,
+            },
+            "runProperty": Object {
+              "bold": true,
+              "boldCs": true,
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 1,
+                "name": "_Toc56436101",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "MEETINGS OF STOCKHOLDERS",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 0,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 1,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "73574AC6",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "Heading1",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 2,
+                "name": "_Toc511045565",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 3,
+                "name": "_Toc56436102",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Place of Meetings",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 2,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 3,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "7E3BCA47",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".  Meetings of stockholders of ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "[",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Insert US Sub Name",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "highlight": "yellow",
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "]",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "(the “",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Company",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "”) shall be held at ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "a ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "place, ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "if any, ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "within or outside the State of Delaware, determined by the Company’s board of directors (the “",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Board",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "”). The Board may, in its sole discretion, determine that a meeting of stockholders shall not be held at any place, but may ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "instead",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " be held solely by means of remote communication as authorized by Section 211(a)(2) of the Delaware General Corporation Law (the “",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "DGCL",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "”). In the absence of any such designation or determination, stockholders’ meetings shall be held at the Company’s principal executive office.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "The Board may cancel, postpone, or reschedule any previously scheduled meeting of stockholders at any time, before or after the notice for such meeting has been given to the stockholders.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "05FAC377",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 4,
+                "name": "_Toc511045566",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 5,
+                "name": "_Ref104634833",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 6,
+                "name": "_Toc56436103",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Annual Meeting",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 4,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 5,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 6,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "0CBFAF4E",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".  Unless directors are elected by written consent in lieu of an annual meeting as permitted by ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Section 211(b",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ") of the DGCL, a",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "n annual meeting of stockholders shall be held for the election of directors at such date and time as may be designated by resolution of the Board from time to time. ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Stockholders may, unless the certificate of incorporation otherwise provides, act by written consent to elect directors; ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "provided, however,",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " that, if such ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "consent",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " is less than unanimous, such action by written consent may be in lieu of holding an annual meeting only if all of the directorships to which directors could be elected at an annual meeting held at the effective time of such action are vacant and are filled by such action. Any other proper business may be transacted at the annual meeting.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "4E15B6C1",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 7,
+                "name": "_Toc511045567",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 8,
+                "name": "_Ref519419004",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 9,
+                "name": "_Toc56436104",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Special Meeting",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 7,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 8,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 9,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "706B5A04",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".  A special meeting of the stockholders may be called at any time by the Board, Chairperson of the Board, Chief Executive Officer or President (in the absence of a Chief Executive Officer)",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "4C92ECDF",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "If a special meeting of the stockholders has been called, the Company",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "shall cause notice to be given to the stockholders entitled to vote at such meeting, in accordance with these bylaws, that a meeting will be held at the time requested by the person or persons calling the meeting. No business may be transacted at such special meeting other than the business specified in such notice to stockholders. Nothing contained in this paragraph of this ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref519419004 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.3",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " shall be construed as limiting, fixing, or affecting the time when a meeting of stockholders called by action of the Board may be held",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " or the business that may be transacted at such meeting",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "3B9606FF",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 10,
+                "name": "_Toc56436105",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 11,
+                "name": "_Toc511045568",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 12,
+                "name": "_Ref519418984",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Notice of Stockholders’ Meetings",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
