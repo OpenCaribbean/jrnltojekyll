@@ -96732,3 +96732,2591 @@ Object {
               "type": "run",
             },
             Object {
+              "data": Object {
+                "id": 10,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "4EFE88B8",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 11,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 12,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "  Whenever stockholders are required or permitted to take any action at a meeting, a notice of the meeting ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "in the form of a wri",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ting or electronic transmission (as defined in ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Section",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref11843605 \\\\r \\\\h ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "7.1",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of these bylaws) ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "shall be given which shall state the place, if any, date and hour of the meeting, the means of remote communications, if any, by which stockholders and proxy holders may be deemed to be present in person and vote at such meeting, the record date for determining the stockholders entitled to vote at the meeting, if such date is different from the record date for determining stockholders entitled to notice of the meeting, and, in the case of a special meeting, the purpose or purposes for which the meeting is called. Except as otherwise provided in the DGCL, the certificate of incorporation or these bylaws, the notice of any meeting of ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "stockholders",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " shall be given not less than 10 nor more than 60 days before the date of the meeting to each stockholder entitled to vote at such meeting as of the record date for determining the stockholders entitled to notice of the meeting.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "14701513",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 13,
+                "name": "_Toc56436106",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 14,
+                "name": "_Toc511045570",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Quorum",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 13,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "15CFE95E",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ". ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 14,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " Except as otherwise provided by law, the certificate of incorporation or these bylaws, at each meeting of stockholders the ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "presence",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " in person or by proxy of the holders of shares of stock ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "having a majority of the votes which could be cast by the holders of all outstanding shares of stock entitled to vote at the meeting shall be necessary and sufficient to constitute a quorum. Where a separate vote by a class or series or classes or series is required, a majority of the outstanding shares of such class or series or classes or series, present in person or represented by proxy, shall constitute a quorum entitled to take action with respect to that vote on that matter, except as otherwise provided by law, the certificate of incorporation or these bylaws.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "37E7B2EF",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "If, however, such quorum is not present or represented at any meeting of the stockholders, then either (i) the chairperson of the meeting, or (ii) the stockholders entitled to vote at the meeting, present in person or represented by proxy, shall have the power to adjourn the meeting from time to time, in the manner provided in ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Section",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref83462018 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.6",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of these bylaws",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", until a quorum is present or represe",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "nted.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "4EC84527",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 15,
+                "name": "_Toc511045571",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 16,
+                "name": "_Ref83462018",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 17,
+                "name": "_Toc56436107",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Adjourned Meeting; Notice",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 15,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 16,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 17,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "64386B8D",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".  Any meeting of stockholders, annual or special, may adjourn from time to time to reconvene at the same or some other place, and notice need not be given of the adjourned meeting if the time, place, if any, thereof, and the means of remote communications, if any, by which stockholders and proxy holders may be deemed to be present in person and vote at such adjourned meeting are ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "announced",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " at the meeting at which the adjournment is taken. At the adjourned meeting, the Company may transact any business which might have been transacted at the original meeting. If the adjournment is for more than 30 days, a notice of the adjourned meeting shall be given to each stockholder of record entitled to vote at the meeting. If after the adjournment a new record date for stockholders entitled to vote is fixed for the adjourned meeting, the Board shall fix a new record date for notice of such adjourned meeting in accordance with Section 213(a) of the DGCL and ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref237060849 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.10",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of these bylaws, and shall give notice of the adjourned meeting to each stockholder of record entitled to vote at such adjourned meeting as of the record date fixed for notice of such adjourned meeting.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "6986E8FB",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 18,
+                "name": "_Toc56436108",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 19,
+                "name": "_Toc511045572",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Conduct of Business",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 18,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "6382E719",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 19,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "  Meetings of stockholders shall be presided over by the Chairperson of the Board, if any, or in his or her absence by the Vice Chairperson of the Board, if any, or in the absence of the foregoing persons by the Chief Executive Officer, or in the absence of the foregoing persons by the President, or in the absence of the foregoing persons by a Vice President, or in the absence of the foregoing persons by a chairperson designated by the Board, or in the absence of such designation by a chairperson chosen at the meeting. The Secretary shall act as secretary of the meeting, but in his or her absence the chairperson of the meeting may appoint any person to act as secretary of the meeting. The chairperson of any meeting of stockholders shall determine the order of business and the procedure at the meeting, including such regulation of ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "the",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " manner of voting and the conduct of business",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", and shall have the power to adjourn the meeting to another place, if any, date or time, whether or not a quorum is present",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "0A296DDA",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 20,
+                "name": "_Toc56436109",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 21,
+                "name": "_Toc511045573",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Voting",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 20,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "2FE892FC",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 21,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "  The stockholders entitled to vote at any meeting of stockholders shall be determined in accordance with the ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "provisions",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref520773517 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.10",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of these bylaws, subject to Section 217 (relating to voting rights of fiduciaries, pledgors and joint owners of stock) and Section 218 (relating to voting trusts and other voting agreements) of the DGCL.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "17566D06",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Except as may be otherwise provided in the certificate of incorporation, each stockholder entitled to vote at any meeting of stockholders shall be entitled to one vote for each share of capital stock held by such stockholder ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "as of the applicable record date ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "which has voting power upon the matter in question. Voting at meetings of stockholders need not be by written ballot and, unless otherwise required by law, need not be conducted by inspectors of election unless so determined by the holders of shares of stock having a majority of the votes which could be cast by the holders of all outstanding shares of stock entitled to vote thereon which are present in person or by proxy at such meeting. If authorized by the Board, such requirement of a written ballot shall be satisfied by a ballot submitted by electronic transmission, ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "provided",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "that any such electronic transmission must either set forth or be submitted with information from which it can be determined that the electronic transmission was authorized by the stockholder or proxy holder.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "69A144F0",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Except as otherwise required by law, the certificate of incorporation or these bylaws, in all matters other than the election of directors, the affirmative vote of a majority of the voting power of the shares present in person or represented by proxy at the meeting and entitled to vote on the subject matter shall be the act of the stockholders. Except as otherwise required by law, the certificate of incorporation or these bylaws, directors shall be elected by a plurality of the voting power of the shares present in person or represented by proxy at the meeting and entitled to vote on the election of directors. Where a separate vote by a class or series or classes or series is required, in all matters other than the election of directors, the affirmative vote of the majority of shares of such class or series or classes or series present in person or represented by proxy at the meeting ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "and entitled to vote on the subject matter ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "shall be the act of such class or series or classes or series, except as otherwise provided by law, the certificate of incorporation or these bylaws.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "6ADE8925",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 22,
+                "name": "_Toc511045574",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 23,
+                "name": "_Ref104634855",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 24,
+                "name": "_Ref394069908",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 25,
+                "name": "_Ref12360794",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 26,
+                "name": "_Ref12360825",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 27,
+                "name": "_Toc56436110",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "Stockholder Action by Written Consent Without a Meeting",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "id": 22,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 23,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 24,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 25,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 26,
+              },
+              "type": "bookmarkEnd",
+            },
+            Object {
+              "data": Object {
+                "id": 27,
+              },
+              "type": "bookmarkEnd",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "085B8C6A",
+          "property": Object {
+            "alignment": "both",
+            "runProperty": Object {
+              "specVanish": true,
+              "vanish": true,
+            },
+            "style": "Heading2",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ".  Unless otherwise provided in the certificate of incorporation, any action required by the DGCL to be taken at any annual or special meeting of stockholders of a corporation, or any action which may be taken at any annual or special meeting of such stockholders, may be taken without ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "a meeting, without prior notice",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " and without a vote, if a consent or consents in writing, setting forth the action so taken, shall be signed by the holders of outstanding stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "1B1AEA6F",
+          "property": Object {
+            "runProperty": Object {},
+            "style": "BodyText",
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "N",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "eastAsia": "Calibri",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "o written consent shall be effective to take the corporate action referred to therein unless written consents signed by a sufficient number of holders to take action are delivered to the Company",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "eastAsia": "Calibri",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " in the manner required by Section 228 of the DGCL within 60 days of the first date on which a written consent is so delivered to the Company",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "eastAsia": "Calibri",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ". Any person executing a consent may provide, whether through instruction to an agent or otherwise, that such a consent will be effective at a future time (including a time determined upon the happening of an event), no later than 60 days after such instruction is given or such provision is made, if evidence of such instruction or provision is provided to the Company. Unless otherwise provided, any such consent shall be revocable prior to its becoming effective.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "eastAsia": "Calibri",
+                  },
+                },
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "72A067D5",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "An electronic transmission consenting to an action to be taken and transmitted by a stockholder or proxy holder, or by a person or persons authorized to act for a stockholder or proxy holder",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", shall be deemed to be written and",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " signed for purposes of this ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref12360794 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.9",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "provided",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "italic": true,
+                  "italicCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " that any such electronic transmission sets forth or is delivered with information from which the Company can determine (i) that the electronic transmission was transmitted by the stockholder or proxy holder or by a person or persons authorized to act for the stockholder or proxy holder and (ii) the date on which such stockholder or proxy holder or authorized person or persons transmitted such electronic transmission.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "0EBC4979",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "A consent given by electronic transmission is delivered to the Company upon the earliest of (i) when the consent enters an information processing system, if any, designated by the Company for receiving consents, so long as the electronic transmission is in a form capable of being processed by that system and the Company is able to retrieve that electronic transmission; (ii) when a paper reproduction of the consent is delivered to the Company’s principal place of business or an officer or agent of the Company having custody of the book in which proceedings of meetings of stockholders are recorded; (iii) when a paper reproduction of the consent is delivered to the Company’s registered office in the State of Delaware by hand or by certified or registered mail, return receipt requested; or (iv) when delivered in such other manner, if any, provided by resolution of the Board. A consent given by electronic transmission is delivered under this ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref12360825 \\\\r \\\\h  \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "1.9",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " even if no person is aware of its receipt. Receipt of an electronic acknowledgement ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "from an information processing system establishes that a consent given by electronic transmission was received but, by itself, does not establish that the content sent corresponds to the content received.",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "685B5A6E",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "In the event that the Board shall have instructed the officers of the Company to solicit the vote or written consent of the stockholders of the Company, an electronic transmission of a stockholder written consent given pursuant to such solicitation",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ", to be effective,",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "must",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " be delivered ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "by electronic mail ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "(as defined in ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "S",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ection ",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "begin",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " REF _Ref11843640 \\\\r \\\\h ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": " \\\\* MERGEFORMAT ",
+                    "type": "instrTextString",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "separate",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "7.1",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "dirty": false,
+                      "fieldCharType": "end",
+                    },
+                    "type": "fieldChar",
+                  },
+                ],
+                "runProperty": Object {
+                  "bold": true,
+                  "boldCs": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " of these bylaws",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": ")",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
