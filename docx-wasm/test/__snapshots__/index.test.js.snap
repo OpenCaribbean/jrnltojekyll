@@ -107143,3 +107143,2705 @@ Object {
               "borderType": "single",
               "color": "000000",
               "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": "DefaultParagraphFont",
+        "link": "Heading2",
+        "name": "Heading 2 Char",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {
+          "sz": 22,
+          "szCs": 22,
+        },
+        "styleId": "Heading2Char",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+    ],
+  },
+  "taskpanes": null,
+  "taskpanesRels": Object {
+    "rels": Array [],
+  },
+  "themes": Array [
+    Object {
+      "fontSchema": Object {
+        "majorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游ゴシック Light",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线 Light",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Angsana New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "MoolBoran",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "Calibri Light",
+        },
+        "minorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游明朝",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Cordia New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "DaunPenh",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "Calibri",
+        },
+      },
+    },
+  ],
+  "webExtensions": Array [],
+  "webSettings": Object {
+    "divs": Array [
+      Object {
+        "divsChild": Array [],
+        "id": "930162107",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1118259637",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      Object {
+        "divsChild": Array [],
+        "id": "1886748407",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+    ],
+  },
+}
+`;
+
+exports[`reader should read strike docx 1`] = `
+Object {
+  "comments": Object {
+    "comments": Array [],
+  },
+  "commentsExtended": Object {
+    "children": Array [],
+  },
+  "contentType": Object {
+    "custom_xml_count": 1,
+    "footer_count": 0,
+    "header_count": 0,
+    "types": Object {
+      "/_rels/.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/docProps/app.xml": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+      "/docProps/core.xml": "application/vnd.openxmlformats-package.core-properties+xml",
+      "/docProps/custom.xml": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
+      "/word/_rels/document.xml.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/word/comments.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+      "/word/commentsExtended.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+      "/word/document.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+      "/word/fontTable.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+      "/word/numbering.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
+      "/word/settings.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+      "/word/styles.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+    },
+    "web_extension_count": 1,
+  },
+  "customItemProps": Array [],
+  "customItemRels": Array [],
+  "customItems": Array [],
+  "docProps": Object {
+    "app": Object {},
+    "core": Object {
+      "config": Object {
+        "created": null,
+        "creator": null,
+        "description": null,
+        "language": null,
+        "lastModifiedBy": null,
+        "modified": null,
+        "revision": null,
+        "subject": null,
+        "title": null,
+      },
+    },
+    "custom": Object {
+      "properties": Object {},
+    },
+  },
+  "document": Object {
+    "children": Array [
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "H",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                  "strike": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ello",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "strike": true,
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": " World",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "01351A59",
+          "property": Object {
+            "runProperty": Object {},
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "H",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {
+                  "fonts": Object {
+                    "hint": "eastAsia",
+                  },
+                },
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "preserveSpace": true,
+                      "text": "ello",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "runProperty": Object {},
+              },
+              "type": "run",
+            },
+            Object {
+              "data": Object {
+                "author": "b",
+                "children": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "preserveSpace": true,
+                            "text": " World",
+                          },
+                          "type": "deleteText",
+                        },
+                      ],
+                      "runProperty": Object {},
+                    },
+                    "type": "run",
+                  },
+                ],
+                "date": "2021-12-21T10:08:00Z",
+              },
+              "type": "delete",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "12206EB1",
+          "property": Object {
+            "runProperty": Object {
+              "fonts": Object {
+                "hint": "eastAsia",
+              },
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+    ],
+    "hasNumbering": false,
+    "sectionProperty": Object {
+      "columns": 1,
+      "docGrid": Object {
+        "charSpace": null,
+        "gridType": "lines",
+        "linePitch": 360,
+      },
+      "pageMargin": Object {
+        "bottom": 1701,
+        "footer": 992,
+        "gutter": 0,
+        "header": 851,
+        "left": 1701,
+        "right": 1701,
+        "top": 1985,
+      },
+      "pageSize": Object {
+        "h": 16840,
+        "orient": null,
+        "w": 11900,
+      },
+      "space": 425,
+      "textDirection": "lrTb",
+      "titlePg": false,
+    },
+  },
+  "documentRels": Object {
+    "customXmlCount": 0,
+    "footerCount": 0,
+    "hasComments": false,
+    "hasNumberings": false,
+    "headerCount": 0,
+    "hyperlinks": Array [],
+    "images": Array [],
+  },
+  "fontTable": Object {},
+  "hyperlinks": Array [],
+  "images": Array [],
+  "media": Array [],
+  "numberings": Object {
+    "abstractNums": Array [],
+    "numberings": Array [],
+  },
+  "rels": Object {
+    "rels": Array [
+      Array [
+        "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+        "rId1",
+        "docProps/core.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+        "rId2",
+        "docProps/app.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+        "rId3",
+        "word/document.xml",
+      ],
+      Array [
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+        "rId4",
+        "docProps/custom.xml",
+      ],
+    ],
+  },
+  "settings": Object {
+    "adjustLineHeightInTable": true,
+    "defaultTabStop": 840,
+    "docId": "F963E3C9-F24C-354B-A852-391D33A55DB4",
+    "docVars": Array [],
+    "evenAndOddHeaders": false,
+    "zoom": 100,
+  },
+  "styles": Object {
+    "docDefaults": Object {
+      "runPropertyDefault": Object {
+        "runProperty": Object {
+          "fonts": Object {
+            "asciiTheme": "minorHAnsi",
+            "csTheme": "minorBidi",
+            "eastAsiaTheme": "minorEastAsia",
+            "hiAnsiTheme": "minorHAnsi",
+          },
+          "sz": 21,
+          "szCs": 21,
+        },
+      },
+    },
+    "styles": Array [
+      Object {
+        "basedOn": null,
+        "name": "Normal",
+        "next": null,
+        "paragraphProperty": Object {
+          "alignment": "both",
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Default Paragraph Font",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a0",
+        "styleType": "character",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Normal Table",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a1",
+        "styleType": "table",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": null,
+            "insideH": null,
+            "insideV": null,
+            "left": null,
+            "right": null,
+            "top": null,
+          },
+          "justification": "left",
+          "margins": Object {
+            "bottom": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+            "left": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "right": Object {
+              "val": 108,
+              "widthType": "dxa",
+            },
+            "top": Object {
+              "val": 0,
+              "widthType": "dxa",
+            },
+          },
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "No List",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a2",
+        "styleType": "numbering",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+      Object {
+        "basedOn": null,
+        "name": "Revision",
+        "next": null,
+        "paragraphProperty": Object {
+          "runProperty": Object {},
+          "tabs": Array [],
+        },
+        "runProperty": Object {},
+        "styleId": "a3",
+        "styleType": "paragraph",
+        "tableCellProperty": Object {
+          "borders": null,
+          "gridSpan": null,
+          "shading": null,
+          "textDirection": null,
+          "verticalAlign": null,
+          "verticalMerge": null,
+          "width": null,
+        },
+        "tableProperty": Object {
+          "borders": Object {
+            "bottom": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "bottom",
+              "size": 2,
+              "space": 0,
+            },
+            "insideH": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideH",
+              "size": 2,
+              "space": 0,
+            },
+            "insideV": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "insideV",
+              "size": 2,
+              "space": 0,
+            },
+            "left": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "left",
+              "size": 2,
+              "space": 0,
+            },
+            "right": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "right",
+              "size": 2,
+              "space": 0,
+            },
+            "top": Object {
+              "borderType": "single",
+              "color": "000000",
+              "position": "top",
+              "size": 2,
+              "space": 0,
+            },
+          },
+          "justification": "left",
+          "width": Object {
+            "width": 0,
+            "widthType": "auto",
+          },
+        },
+      },
+    ],
+  },
+  "taskpanes": null,
+  "taskpanesRels": Object {
+    "rels": Array [],
+  },
+  "themes": Array [
+    Object {
+      "fontSchema": Object {
+        "majorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游ゴシック Light",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线 Light",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Angsana New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "MoolBoran",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Times New Roman",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游ゴシック Light",
+        },
+        "minorFont": Object {
+          "cs": "",
+          "ea": "",
+          "fonts": Array [
+            Object {
+              "script": "Jpan",
+              "typeface": "游明朝",
+            },
+            Object {
+              "script": "Hang",
+              "typeface": "맑은 고딕",
+            },
+            Object {
+              "script": "Hans",
+              "typeface": "等线",
+            },
+            Object {
+              "script": "Hant",
+              "typeface": "新細明體",
+            },
+            Object {
+              "script": "Arab",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Hebr",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Thai",
+              "typeface": "Cordia New",
+            },
+            Object {
+              "script": "Ethi",
+              "typeface": "Nyala",
+            },
+            Object {
+              "script": "Beng",
+              "typeface": "Vrinda",
+            },
+            Object {
+              "script": "Gujr",
+              "typeface": "Shruti",
+            },
+            Object {
+              "script": "Khmr",
+              "typeface": "DaunPenh",
+            },
+            Object {
+              "script": "Knda",
+              "typeface": "Tunga",
+            },
+            Object {
+              "script": "Guru",
+              "typeface": "Raavi",
+            },
+            Object {
+              "script": "Cans",
+              "typeface": "Euphemia",
+            },
+            Object {
+              "script": "Cher",
+              "typeface": "Plantagenet Cherokee",
+            },
+            Object {
+              "script": "Yiii",
+              "typeface": "Microsoft Yi Baiti",
+            },
+            Object {
+              "script": "Tibt",
+              "typeface": "Microsoft Himalaya",
+            },
+            Object {
+              "script": "Thaa",
+              "typeface": "MV Boli",
+            },
+            Object {
+              "script": "Deva",
+              "typeface": "Mangal",
+            },
+            Object {
+              "script": "Telu",
+              "typeface": "Gautami",
+            },
+            Object {
+              "script": "Taml",
+              "typeface": "Latha",
+            },
+            Object {
+              "script": "Syrc",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Orya",
+              "typeface": "Kalinga",
+            },
+            Object {
+              "script": "Mlym",
+              "typeface": "Kartika",
+            },
+            Object {
+              "script": "Laoo",
+              "typeface": "DokChampa",
+            },
+            Object {
+              "script": "Sinh",
+              "typeface": "Iskoola Pota",
+            },
+            Object {
+              "script": "Mong",
+              "typeface": "Mongolian Baiti",
+            },
+            Object {
+              "script": "Viet",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Uigh",
+              "typeface": "Microsoft Uighur",
+            },
+            Object {
+              "script": "Geor",
+              "typeface": "Sylfaen",
+            },
+            Object {
+              "script": "Armn",
+              "typeface": "Arial",
+            },
+            Object {
+              "script": "Bugi",
+              "typeface": "Leelawadee UI",
+            },
+            Object {
+              "script": "Bopo",
+              "typeface": "Microsoft JhengHei",
+            },
+            Object {
+              "script": "Java",
+              "typeface": "Javanese Text",
+            },
+            Object {
+              "script": "Lisu",
+              "typeface": "Segoe UI",
+            },
+            Object {
+              "script": "Mymr",
+              "typeface": "Myanmar Text",
+            },
+            Object {
+              "script": "Nkoo",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Olck",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Osma",
+              "typeface": "Ebrima",
+            },
+            Object {
+              "script": "Phag",
+              "typeface": "Phagspa",
+            },
+            Object {
+              "script": "Syrn",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syrj",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Syre",
+              "typeface": "Estrangelo Edessa",
+            },
+            Object {
+              "script": "Sora",
+              "typeface": "Nirmala UI",
+            },
+            Object {
+              "script": "Tale",
+              "typeface": "Microsoft Tai Le",
+            },
+            Object {
+              "script": "Talu",
+              "typeface": "Microsoft New Tai Lue",
+            },
+            Object {
+              "script": "Tfng",
+              "typeface": "Ebrima",
+            },
+          ],
+          "latin": "游明朝",
+        },
+      },
+    },
+  ],
+  "webExtensions": Array [],
+  "webSettings": Object {
+    "divs": Array [],
+  },
+}
+`;
+
+exports[`reader should read table indent docx 1`] = `
+Object {
+  "comments": Object {
+    "comments": Array [],
+  },
+  "commentsExtended": Object {
+    "children": Array [],
+  },
+  "contentType": Object {
+    "custom_xml_count": 1,
+    "footer_count": 1,
+    "header_count": 1,
+    "types": Object {
+      "/_rels/.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/docProps/app.xml": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+      "/docProps/core.xml": "application/vnd.openxmlformats-package.core-properties+xml",
+      "/docProps/custom.xml": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
+      "/word/_rels/document.xml.rels": "application/vnd.openxmlformats-package.relationships+xml",
+      "/word/comments.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+      "/word/commentsExtended.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+      "/word/document.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+      "/word/fontTable.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+      "/word/footer1.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml",
+      "/word/header1.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml",
+      "/word/numbering.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
+      "/word/settings.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+      "/word/styles.xml": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+    },
+    "web_extension_count": 1,
+  },
+  "customItemProps": Array [],
+  "customItemRels": Array [],
+  "customItems": Array [],
+  "docProps": Object {
+    "app": Object {},
+    "core": Object {
+      "config": Object {
+        "created": null,
+        "creator": null,
+        "description": null,
+        "language": null,
+        "lastModifiedBy": null,
+        "modified": null,
+        "revision": null,
+        "subject": null,
+        "title": null,
+      },
+    },
+    "custom": Object {
+      "properties": Object {},
+    },
+  },
+  "document": Object {
+    "children": Array [
+      Object {
+        "data": Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "id": 0,
+                "name": "_Toc366046525",
+              },
+              "type": "bookmarkStart",
+            },
+            Object {
+              "data": Object {
+                "id": 1,
+                "name": "_Toc406502831",
+              },
+              "type": "bookmarkStart",
+            },
+          ],
+          "hasNumbering": false,
+          "id": "00000003",
+          "property": Object {
+            "alignment": "left",
+            "lineSpacing": Object {
+              "before": 0,
+            },
+            "runProperty": Object {
+              "fonts": Object {
+                "asciiTheme": "minorHAnsi",
+                "cs": "Arial",
+                "hiAnsiTheme": "minorHAnsi",
+              },
+              "underline": "single",
+            },
+            "tabs": Array [],
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "data": Object {
+          "grid": Array [
+            3402,
+            1418,
+            2410,
+            1984,
+            2693,
+          ],
+          "hasNumbering": false,
+          "property": Object {
+            "borders": Object {
+              "bottom": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "bottom",
+                "size": 6,
+                "space": 0,
+              },
+              "insideH": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "insideH",
+                "size": 6,
+                "space": 0,
+              },
+              "insideV": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "insideV",
+                "size": 6,
+                "space": 0,
+              },
+              "left": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "left",
+                "size": 6,
+                "space": 0,
+              },
+              "right": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "right",
+                "size": 6,
+                "space": 0,
+              },
+              "top": Object {
+                "borderType": "single",
+                "color": "auto",
+                "position": "top",
+                "size": 6,
+                "space": 0,
+              },
+            },
+            "indent": Object {
+              "width": -1142,
+              "widthType": "dxa",
+            },
+            "justification": "left",
+            "width": Object {
+              "width": 11907,
+              "widthType": "dxa",
+            },
+          },
+          "rows": Array [
+            Object {
+              "data": Object {
+                "cells": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000004",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 0,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "bold": true,
+                                "boldCs": true,
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 3402,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000005",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "bold": true,
+                                "boldCs": true,
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1418,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000006",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 84,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "bold": true,
+                                "boldCs": true,
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2410,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000007",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 34,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 34,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "bold": true,
+                                "boldCs": true,
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1984,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000008",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 20,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 20,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "bold": true,
+                                "boldCs": true,
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2693,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                ],
+                "hasNumbering": false,
+                "property": Object {
+                  "gridAfter": null,
+                  "gridBefore": null,
+                  "widthAfter": null,
+                  "widthBefore": null,
+                },
+              },
+              "type": "tableRow",
+            },
+            Object {
+              "data": Object {
+                "cells": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000009",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 0,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 3402,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [
+                              Object {
+                                "data": Object {
+                                  "children": Array [
+                                    Object {
+                                      "data": Object {
+                                        "preserveSpace": true,
+                                        "text": "l",
+                                      },
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "runProperty": Object {
+                                    "fonts": Object {
+                                      "asciiTheme": "minorHAnsi",
+                                      "cs": "Arial",
+                                      "hiAnsiTheme": "minorHAnsi",
+                                    },
+                                  },
+                                },
+                                "type": "run",
+                              },
+                            ],
+                            "hasNumbering": false,
+                            "id": "0000000a",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1418,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "0000000b",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2410,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "0000000c",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 34,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1984,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "0000000d",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 20,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {},
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2693,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                ],
+                "hasNumbering": false,
+                "property": Object {
+                  "gridAfter": null,
+                  "gridBefore": null,
+                  "widthAfter": null,
+                  "widthBefore": null,
+                },
+              },
+              "type": "tableRow",
+            },
+            Object {
+              "data": Object {
+                "cells": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "0000000e",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 0,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 3402,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "0000000f",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1418,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000010",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2410,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000011",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 34,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1984,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000012",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 20,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 20,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2693,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                ],
+                "hasNumbering": false,
+                "property": Object {
+                  "gridAfter": null,
+                  "gridBefore": null,
+                  "widthAfter": null,
+                  "widthBefore": null,
+                },
+              },
+              "type": "tableRow",
+            },
+            Object {
+              "data": Object {
+                "cells": Array [
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000013",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 0,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 3402,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000014",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 1418,
+                          "widthType": "dxa",
+                        },
+                      },
+                    },
+                    "type": "tableCell",
+                  },
+                  Object {
+                    "data": Object {
+                      "children": Array [
+                        Object {
+                          "data": Object {
+                            "children": Array [],
+                            "hasNumbering": false,
+                            "id": "00000015",
+                            "property": Object {
+                              "alignment": "left",
+                              "indent": Object {
+                                "end": 84,
+                                "firstLineChars": null,
+                                "hangingChars": null,
+                                "specialIndent": null,
+                                "start": 0,
+                                "startChars": null,
+                              },
+                              "lineSpacing": Object {
+                                "before": 0,
+                              },
+                              "runProperty": Object {
+                                "fonts": Object {
+                                  "asciiTheme": "minorHAnsi",
+                                  "cs": "Arial",
+                                  "hiAnsiTheme": "minorHAnsi",
+                                },
+                              },
+                              "tabs": Array [],
+                            },
+                          },
+                          "type": "paragraph",
+                        },
+                      ],
+                      "hasNumbering": false,
+                      "property": Object {
+                        "borders": null,
+                        "gridSpan": null,
+                        "shading": null,
+                        "textDirection": null,
+                        "verticalAlign": null,
+                        "verticalMerge": null,
+                        "width": Object {
+                          "width": 2410,
