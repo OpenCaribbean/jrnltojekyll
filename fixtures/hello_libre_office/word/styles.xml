@@ -70,4 +70,25 @@
         <w:qFormat/>
         <w:pPr>
             <w:suppressLineNumbers/>
-            <w:spacing w:before="
+            <w:spacing w:before="120" w:after="120"/>
+        </w:pPr>
+        <w:rPr>
+            <w:rFonts w:cs="Lohit Devanagari"/>
+            <w:i/>
+            <w:iCs/>
+            <w:sz w:val="24"/>
+            <w:szCs w:val="24"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Style18">
+        <w:name w:val="索引"/>
+        <w:basedOn w:val="Normal"/>
+        <w:qFormat/>
+        <w:pPr>
+            <w:suppressLineNumbers/>
+        </w:pPr>
+        <w:rPr>
+            <w:rFonts w:cs="Lohit Devanagari"/>
+        </w:rPr>
+    </w:style>
+</w:styles>
