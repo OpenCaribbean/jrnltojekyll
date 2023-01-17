@@ -37,4 +37,33 @@
                                     <pic:blipFill>
                                         <a:blip r:embed="rId7" cstate="none"/>
                                         <a:srcRect/>
-                                
+                                        <a:stretch>
+                                            <a:fillRect/>
+                                        </a:stretch>
+                                    </pic:blipFill>
+                                    <pic:spPr bwMode="auto">
+                                        <a:xfrm>
+                                            <a:ext cx="952500" cy="952500"/>
+                                            <a:off x="0" y="0"/>
+                                        </a:xfrm>
+                                        <a:prstGeom prst="rect">
+                                            <a:avLst/>
+                                        </a:prstGeom>
+                                    </pic:spPr>
+                                </pic:pic>
+                            </a:graphicData>
+                        </a:graphic>
+                    </wp:inline>
+                </w:drawing>
+            </w:r>
+        </w:p>
+        <w:sectPr>
+            <w:pgSz w:w="11906" w:h="16838" w:orient="portrait"/>
+            <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="708" w:footer="708" w:gutter="0" w:mirrorMargins="false"/>
+            <w:cols w:space="708" w:num="1"/>
+            <w:docGrid w:linePitch="360"/>
+            <w:headerReference w:type="default" r:id="rId5"/>
+            <w:footerReference w:type="default" r:id="rId6"/>
+        </w:sectPr>
+    </w:body>
+</w:document>
